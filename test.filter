@@ -1,0 +1,10 @@
+Show
+	SetFontSize 30
+	SetBackgroundColor 161,159,0,255
+	SetBorderColor 122,210,92,255
+Show
+	SetFontSize 32
+	SetBackgroundColor 236,107,73,255
+	SetTextColor 165,123,190,255
+	BaseType 
+	Height < 21
