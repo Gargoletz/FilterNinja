@@ -86,6 +86,179 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/styles/style.css":
+/*!********************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/styles/style.css ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../gfx/fontin.ttf */ "./src/gfx/fontin.ttf");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../gfx/bg.png */ "./src/gfx/bg.png");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+// Module
+exports.push([module.i, "@font-face {\r\n    font-family: font;\r\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n  }\r\n\r\n  body {\r\n    margin: 0;\r\n    width: 100vw;\r\n    height: 100vh;\r\n    overflow: hidden;\r\n    background-color: #eee;\r\n  }\r\n\r\n  #root {\r\n    padding: 0px 20px;\r\n  }\r\n\r\n  body * {\r\n    font-family: font;\r\n  }\r\n\r\n  ::-webkit-scrollbar {\r\n    display: none;\r\n  }\r\n\r\n  .group {\r\n    background-color: #666;\r\n  }\r\n\r\n  .group-header {\r\n    text-align: center;\r\n    background-color: #333;\r\n    color: white;\r\n    padding: 5px;\r\n    margin-bottom: 10px;\r\n  }\r\n\r\n  .group-header-text {\r\n    background-color: #333;\r\n    border: none;\r\n    color: white;\r\n    text-align: center;\r\n    font-size: 30px;\r\n    font-weight: bold;\r\n  }\r\n\r\n  .group-header h1 {\r\n    padding: 0;\r\n    margin: 0;\r\n    user-select: none;\r\n    cursor: default;\r\n  }\r\n\r\n  .list-item-container {\r\n    display: flex;\r\n    justify-content: center;\r\n    /* width: 90%; */\r\n    /* margin: 0 auto; */\r\n  }\r\n\r\n  .list-item {\r\n    flex: 1;\r\n    text-align: center;\r\n    user-select: none;\r\n    /* margin-bottom: 15px; */\r\n    margin: 5px 0;\r\n    float: left;\r\n    position: relative;\r\n    cursor: pointer;\r\n    min-height: 60px;\r\n  }\r\n\r\n  .list-item-header {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    padding: 6px 0px;\r\n    height: 70px;\r\n    /* background-image: url(\"./gfx/bg.png\"); */\r\n    background-size: 100% 100%;\r\n    position: relative;\r\n  }\r\n\r\n  .list-item-header-background {\r\n    position: relative;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\r\n    background-size: 100% 100%;\r\n    padding: 12px 30px;\r\n    border-radius: 2px;\r\n    display: flex;\r\n    align-items: center;\r\n  }\r\n\r\n  .list-item-header-background input {\r\n    width: 30px !important;\r\n    margin-left: 10px;\r\n  }\r\n\r\n  .list-item-header-box {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    border: 1px solid black;\r\n    background-color: white;\r\n    color: red;\r\n    font-size: 21px;\r\n    padding: 2px 5px 2px 5px;\r\n  }\r\n\r\n  .list-item-header-box p {\r\n    padding: 0;\r\n    margin: 0;\r\n    user-select: none;\r\n  }\r\n\r\n  .list-item-group {\r\n    float: left;\r\n    position: absolute;\r\n    right: -15px;\r\n    top: -5px;\r\n    width: 15px;\r\n    height: calc(100% + 5px);\r\n  }\r\n\r\n  .list-item-inputs {\r\n    background-color: #dfdfdf;\r\n    display: flex;\r\n    justify-content: center;\r\n    padding: 10px 5%;\r\n    /* border-radius: 12px; */\r\n    /* background-color: #888; */\r\n    /* flex-direction: column; */\r\n    flex-wrap: wrap;\r\n  }\r\n\r\n  .list-item-inputs > div {\r\n    display: flex;\r\n  }\r\n\r\n  .list-item-section {\r\n    display: flex;\r\n    /* flex: 1; */\r\n    flex-direction: column;\r\n    margin: 3px;\r\n  }\r\n\r\n  .list-item-section .button {\r\n    /* margin-bottom: 5px; */\r\n    color: white;\r\n    background-color: #444;\r\n    padding: 4px 0px;\r\n  }\r\n\r\n  .button {\r\n    /* border: 3px solid #333; */\r\n    border: none;\r\n    padding: 8px 10px;\r\n    background-color: #888;\r\n    border-radius: 16px;\r\n    color: white;\r\n    font-weight: bold;\r\n    font-size: 16px;\r\n    user-select: none;\r\n    outline: none;\r\n    border-radius: 2px;\r\n  }\r\n\r\n  .button--disabled {\r\n    background-color: rgba(100, 100, 100, 0.25) !important;\r\n    border-color: rgba(100, 100, 100, 0.5);\r\n  }\r\n\r\n  .button:hover {\r\n    background-color: rgba(0, 0, 0, 0.35) !important;\r\n    cursor: pointer;\r\n    color: white;\r\n    border-color: #444;\r\n  }\r\n\r\n  .lower {\r\n    background-color: #646464 !important;\r\n    /* border: 3px solid #484848 !important; */\r\n  }\r\n\r\n  .list-item-section-content {\r\n    background-color: rgb(190, 190, 190);\r\n    box-sizing: border-box;\r\n    /* border: 3px solid #444; */\r\n    border-radius: 2px;\r\n    text-align: center;\r\n    font-family: font;\r\n    font-size: 16px;\r\n    color: black;\r\n    width: 100%;\r\n    display: flex;\r\n    padding: 8px;\r\n    margin-top: 3px;\r\n  }\r\n\r\n  .list-item-section-collection {\r\n    background-color: #cacaca;\r\n    text-align: center;\r\n    /* border: 3px solid #444; */\r\n    border-bottom: none;\r\n  }\r\n\r\n  .list-item-section-collection-item {\r\n    background-color: #ddd;\r\n    /* border: 3px solid #444; */\r\n    color: black;\r\n    margin: 3px;\r\n    float: left;\r\n    /* padding-left: 10px; */\r\n    /* padding-right: 10px; */\r\n    padding: 4px 5px 4px 5px;\r\n    flex: auto;\r\n    min-height: 16px;\r\n  }\r\n\r\n  .list-item-section-collection-item:hover {\r\n    background-color: rgb(255, 174, 174);\r\n  }\r\n\r\n  .input-number {\r\n    flex: 1;\r\n  }\r\n\r\n  .input-number input {\r\n    background-color: rgb(221, 221, 221);\r\n    box-sizing: border-box;\r\n    text-align: center;\r\n    font-family: font;\r\n    border: none;\r\n    border-radius: 3px;\r\n    width: 90%;\r\n    font-size: 16px;\r\n    font-weight: bold;\r\n  }\r\n\r\n  .input-text {\r\n    flex: 1;\r\n  }\r\n\r\n  .input-text input {\r\n    background-color: rgb(184, 184, 184);\r\n    box-sizing: border-box;\r\n    text-align: center;\r\n    font-family: font;\r\n    border: none;\r\n    border-radius: 3px;\r\n    width: 100%;\r\n    font-size: 18px;\r\n  }\r\n\r\n  .input-select-item {\r\n    margin: 0px -5px;\r\n    padding: 4px 0px;\r\n    text-align: center;\r\n  }\r\n\r\n  .input-select-item:hover {\r\n    background-color: #777;\r\n  }\r\n\r\n  .input-toggle {\r\n    flex: 1;\r\n  }\r\n\r\n  .input-toggle div {\r\n    /* border: 3px solid #333; */\r\n    border-radius: 2px;\r\n    font-weight: bold;\r\n    font-size: 16px;\r\n    user-select: none;\r\n    outline: none;\r\n    border-radius: 2px;\r\n    padding: 2px 0px;\r\n  }\r\n\r\n  .input-toggle div:hover {\r\n    border-color: #fff;\r\n  }\r\n\r\n  .popup {\r\n    position: absolute;\r\n    width: 100%;\r\n    box-sizing: border-box;\r\n    right: 0px;\r\n    /* border: 3px solid #545454; */\r\n    background-color: #8c8c8c;\r\n    color: white;\r\n    z-index: 100;\r\n    padding: 5px;\r\n    margin-bottom: 10px;\r\n  }\r\n\r\n  .popup .button:hover {\r\n    background: #515151 !important;\r\n  }", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+// eslint-disable-next-line func-names
+module.exports = function (useSourceMap) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item, useSourceMap);
+
+      if (item[2]) {
+        return "@media ".concat(item[2], " {").concat(content, "}");
+      }
+
+      return content;
+    }).join('');
+  }; // import a list of modules into the list
+  // eslint-disable-next-line func-names
+
+
+  list.i = function (modules, mediaQuery, dedupe) {
+    if (typeof modules === 'string') {
+      // eslint-disable-next-line no-param-reassign
+      modules = [[null, modules, '']];
+    }
+
+    var alreadyImportedModules = {};
+
+    if (dedupe) {
+      for (var i = 0; i < this.length; i++) {
+        // eslint-disable-next-line prefer-destructuring
+        var id = this[i][0];
+
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+
+    for (var _i = 0; _i < modules.length; _i++) {
+      var item = [].concat(modules[_i]);
+
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        // eslint-disable-next-line no-continue
+        continue;
+      }
+
+      if (mediaQuery) {
+        if (!item[2]) {
+          item[2] = mediaQuery;
+        } else {
+          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
+        }
+      }
+
+      list.push(item);
+    }
+  };
+
+  return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
+
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (useSourceMap && typeof btoa === 'function') {
+    var sourceMapping = toComment(cssMapping);
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot || '').concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+  }
+
+  return [content].join('\n');
+} // Adapted from convert-source-map (MIT)
+
+
+function toComment(sourceMap) {
+  // eslint-disable-next-line no-undef
+  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+  return "/*# ".concat(data, " */");
+}
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== 'string') {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, '\\n'), "\"");
+  }
+
+  return url;
+};
+
+/***/ }),
+
 /***/ "./node_modules/object-assign/index.js":
 /*!*********************************************!*\
   !*** ./node_modules/object-assign/index.js ***!
@@ -28601,6 +28774,286 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var isOldIE = function isOldIE() {
+  var memo;
+  return function memorize() {
+    if (typeof memo === 'undefined') {
+      // Test for IE <= 9 as proposed by Browserhacks
+      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+      // Tests for existence of standard globals is to allow style-loader
+      // to operate correctly into non-standard environments
+      // @see https://github.com/webpack-contrib/style-loader/issues/177
+      memo = Boolean(window && document && document.all && !window.atob);
+    }
+
+    return memo;
+  };
+}();
+
+var getTarget = function getTarget() {
+  var memo = {};
+  return function memorize(target) {
+    if (typeof memo[target] === 'undefined') {
+      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+        try {
+          // This will throw an exception if access to iframe is blocked
+          // due to cross-origin restrictions
+          styleTarget = styleTarget.contentDocument.head;
+        } catch (e) {
+          // istanbul ignore next
+          styleTarget = null;
+        }
+      }
+
+      memo[target] = styleTarget;
+    }
+
+    return memo[target];
+  };
+}();
+
+var stylesInDom = [];
+
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+
+  for (var i = 0; i < stylesInDom.length; i++) {
+    if (stylesInDom[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+
+  return result;
+}
+
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var index = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3]
+    };
+
+    if (index !== -1) {
+      stylesInDom[index].references++;
+      stylesInDom[index].updater(obj);
+    } else {
+      stylesInDom.push({
+        identifier: identifier,
+        updater: addStyle(obj, options),
+        references: 1
+      });
+    }
+
+    identifiers.push(identifier);
+  }
+
+  return identifiers;
+}
+
+function insertStyleElement(options) {
+  var style = document.createElement('style');
+  var attributes = options.attributes || {};
+
+  if (typeof attributes.nonce === 'undefined') {
+    var nonce =  true ? __webpack_require__.nc : undefined;
+
+    if (nonce) {
+      attributes.nonce = nonce;
+    }
+  }
+
+  Object.keys(attributes).forEach(function (key) {
+    style.setAttribute(key, attributes[key]);
+  });
+
+  if (typeof options.insert === 'function') {
+    options.insert(style);
+  } else {
+    var target = getTarget(options.insert || 'head');
+
+    if (!target) {
+      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+    }
+
+    target.appendChild(style);
+  }
+
+  return style;
+}
+
+function removeStyleElement(style) {
+  // istanbul ignore if
+  if (style.parentNode === null) {
+    return false;
+  }
+
+  style.parentNode.removeChild(style);
+}
+/* istanbul ignore next  */
+
+
+var replaceText = function replaceText() {
+  var textStore = [];
+  return function replace(index, replacement) {
+    textStore[index] = replacement;
+    return textStore.filter(Boolean).join('\n');
+  };
+}();
+
+function applyToSingletonTag(style, index, remove, obj) {
+  var css = remove ? '' : obj.media ? "@media ".concat(obj.media, " {").concat(obj.css, "}") : obj.css; // For old IE
+
+  /* istanbul ignore if  */
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = replaceText(index, css);
+  } else {
+    var cssNode = document.createTextNode(css);
+    var childNodes = style.childNodes;
+
+    if (childNodes[index]) {
+      style.removeChild(childNodes[index]);
+    }
+
+    if (childNodes.length) {
+      style.insertBefore(cssNode, childNodes[index]);
+    } else {
+      style.appendChild(cssNode);
+    }
+  }
+}
+
+function applyToTag(style, options, obj) {
+  var css = obj.css;
+  var media = obj.media;
+  var sourceMap = obj.sourceMap;
+
+  if (media) {
+    style.setAttribute('media', media);
+  } else {
+    style.removeAttribute('media');
+  }
+
+  if (sourceMap && typeof btoa !== 'undefined') {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    while (style.firstChild) {
+      style.removeChild(style.firstChild);
+    }
+
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var singleton = null;
+var singletonCounter = 0;
+
+function addStyle(obj, options) {
+  var style;
+  var update;
+  var remove;
+
+  if (options.singleton) {
+    var styleIndex = singletonCounter++;
+    style = singleton || (singleton = insertStyleElement(options));
+    update = applyToSingletonTag.bind(null, style, styleIndex, false);
+    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+  } else {
+    style = insertStyleElement(options);
+    update = applyToTag.bind(null, style, options);
+
+    remove = function remove() {
+      removeStyleElement(style);
+    };
+  }
+
+  update(obj);
+  return function updateStyle(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+        return;
+      }
+
+      update(obj = newObj);
+    } else {
+      remove();
+    }
+  };
+}
+
+module.exports = function (list, options) {
+  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+  // tags it will allow on a page
+
+  if (!options.singleton && typeof options.singleton !== 'boolean') {
+    options.singleton = isOldIE();
+  }
+
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+
+    if (Object.prototype.toString.call(newList) !== '[object Array]') {
+      return;
+    }
+
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDom[index].references--;
+    }
+
+    var newLastIdentifiers = modulesToDom(newList, options);
+
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+
+      var _index = getIndexByIdentifier(_identifier);
+
+      if (stylesInDom[_index].references === 0) {
+        stylesInDom[_index].updater();
+
+        stylesInDom.splice(_index, 1);
+      }
+    }
+
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
+/***/ }),
+
 /***/ "./src/App.tsx":
 /*!*********************!*\
   !*** ./src/App.tsx ***!
@@ -28669,59 +29122,215 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
 exports.__esModule = true;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+__webpack_require__(/*! ./styles/style.css */ "./src/styles/style.css");
 var Rule_1 = __webpack_require__(/*! ./logic/Rule */ "./src/logic/Rule.tsx");
 var Value_1 = __webpack_require__(/*! ./logic/Value */ "./src/logic/Value.tsx");
 var Item_1 = __webpack_require__(/*! ./components/Item */ "./src/components/Item.tsx");
+var RenderedList_1 = __webpack_require__(/*! ./components/RenderedList */ "./src/components/RenderedList.tsx");
+var AppContext_1 = __webpack_require__(/*! ./logic/AppContext */ "./src/logic/AppContext.tsx");
+var Toolbar_1 = __webpack_require__(/*! ./components/Toolbar */ "./src/components/Toolbar.tsx");
+var Filter_1 = __webpack_require__(/*! ./logic/Filter */ "./src/logic/Filter.tsx");
 var SIZE = 18;
 var App = /** @class */ (function (_super) {
     __extends(App, _super);
     function App(props) {
         var _this = _super.call(this, props) || this;
-        _this.state = { offset: 0, from: 0, selected: [], clipboard: [], items: [] };
-        _this.reload = _this.reload.bind(_this);
-        _this.newRule = _this.newRule.bind(_this);
-        _this.createRule = _this.createRule.bind(_this);
-        _this.insertRule = _this.insertRule.bind(_this);
-        _this.deleteRule = _this.deleteRule.bind(_this);
-        _this.selectRule = _this.selectRule.bind(_this);
-        _this.moveRule = _this.moveRule.bind(_this);
+        _this.state = {
+            offset: 0,
+            from: 0,
+            selected: [],
+            clipboard: [],
+            items: [],
+            editedRule: undefined,
+        };
+        _this.getNewRule = function () {
+            return new Rule_1["default"](_this, "Rule #" + Math.floor(Math.random() * 100));
+        };
+        _this.addRuleToBegin = function () { return __awaiter(_this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, this.setItems(__spreadArrays([this.getNewRule()], this.state.items))];
+                    case 1:
+                        _a.sent();
+                        this.list.current.bar.current.move(0);
+                        return [2 /*return*/];
+                }
+            });
+        }); };
+        _this.addRuleAfterSelected = function () {
+            if (_this.state.selected.length > 0) {
+                _this.insertRuleAtIndex(_this.getNewRule(), _this.state.items.indexOf(_this.state.selected[_this.state.selected.length - 1]) + 1);
+            }
+        };
+        _this.addRuleToEnd = function () { return __awaiter(_this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, this.setItems(__spreadArrays(this.state.items, [this.getNewRule()]))];
+                    case 1:
+                        _a.sent();
+                        this.list.current.bar.current.move(document.body.getBoundingClientRect().height);
+                        return [2 /*return*/];
+                }
+            });
+        }); };
+        _this.insertRuleAtIndex = function (rule, index) {
+            if (rule) {
+                var array = [];
+                for (var i = 0; i < _this.state.items.length + 1; i++) {
+                    var item = _this.state.items[i];
+                    if (i == index)
+                        array.push(rule);
+                    if (item)
+                        array.push(item);
+                }
+                _this.setItems(array);
+            }
+        };
+        _this.insertRuleAfterIndex = function (rule, index) {
+            _this.insertRuleAtIndex(rule, index + 1);
+        };
+        _this.alterRule = function (rule, params) {
+            console.log("halo", rule);
+            _this.state.items.forEach(function (e, i) {
+                if (e.id == rule.id) {
+                    Object.keys(params).forEach(function (f, j) {
+                        if (e[f] instanceof Value_1["default"])
+                            e[f].value = params[f];
+                        else
+                            e[f] = params[f];
+                    });
+                }
+            });
+            _this.setItems(__spreadArrays(_this.state.items), function () {
+                _this.setState({ offset: Math.max(_this.state.offset, -10) });
+            });
+        };
+        _this.deleteRule = function (rule, callback) { return __awaiter(_this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, this.setItems(this.state.items.filter(function (r) { return r != rule; }), callback)];
+                    case 1:
+                        _a.sent();
+                        return [2 /*return*/];
+                }
+            });
+        }); };
+        _this.deleteMultipleRules = function (rules, callback) {
+            _this.setItems(_this.state.items.filter(function (r) { return !rules.includes(r); }), callback);
+        };
+        _this.deleteSelectedRules = function () {
+            _this.deleteMultipleRules(_this.state.selected);
+        };
+        _this.selectRule = function (rule, append, multiple) {
+            var _a;
+            var selected = [rule];
+            if (multiple) {
+                if ((_a = _this.state) === null || _a === void 0 ? void 0 : _a.selected[_this.state.selected.length - 1]) {
+                    var start = _this.state.items.indexOf(_this.state.selected[_this.state.selected.length - 1]);
+                    var end = _this.state.items.indexOf(rule) + 1;
+                    if (start < end)
+                        selected = _this.state.items.slice(start, end);
+                    else
+                        selected = _this.state.items.slice(end - 1, start + 1);
+                }
+            }
+            if (append) {
+                if (!multiple &&
+                    _this.state.selected.includes(selected[selected.length - 1])) {
+                    var array_1 = [];
+                    _this.state.selected.forEach(function (val, i) {
+                        if (val != selected[selected.length - 1])
+                            array_1.push(val);
+                    });
+                    _this.setState({
+                        selected: __spreadArrays(array_1, selected.splice(0, selected.length - 1)),
+                    });
+                }
+                else
+                    _this.setState({ selected: __spreadArrays(_this.state.selected, selected) });
+            }
+            else
+                _this.setState({ selected: __spreadArrays(selected) });
+        };
+        _this.moveRuleToTop = function (rule) {
+            _this.deleteRule(rule, function () {
+                _this.insertRuleAtIndex(rule, 0);
+                _this.list.current.bar.current.move(0);
+            });
+        };
+        _this.moveMultipleToTop = function (rules) {
+            _this.deleteMultipleRules(rules, function () {
+                _this.setItems(__spreadArrays(rules, _this.state.items), function () {
+                    _this.list.current.bar.current.move(0);
+                });
+            });
+        };
+        _this.moveSelectedToTop = function () {
+            if (_this.state.selected.length > 1) {
+                _this.moveMultipleToTop(_this.state.selected);
+            }
+            else
+                _this.moveRuleToTop(_this.state.selected[0]);
+        };
+        _this.moveRuleToBottom = function (rule) {
+            _this.deleteRule(rule, function () {
+                _this.insertRuleAtIndex(rule, _this.state.items.length);
+                _this.list.current.bar.current.move(document.body.getBoundingClientRect().height);
+            });
+        };
+        _this.moveMultipleToBottom = function (rules) {
+            _this.deleteMultipleRules(rules, function () {
+                _this.setItems(__spreadArrays(_this.state.items, rules), function () {
+                    _this.list.current.bar.current.move(document.body.getBoundingClientRect().height);
+                });
+            });
+        };
+        _this.moveSelectedToBottom = function () {
+            if (_this.state.selected.length > 1) {
+                _this.moveMultipleToBottom(_this.state.selected);
+            }
+            else
+                _this.moveRuleToBottom(_this.state.selected[0]);
+        };
+        _this.moveRule = function (rule, step) {
+            if (rule) {
+                var array = __spreadArrays(_this.state.items);
+                for (var i = 0; i < Math.abs(step); i++) {
+                    var index = array.indexOf(rule);
+                    if ((index == 0 && step < 0) || (index == array.length - 1 && step > 0))
+                        break;
+                    if (step < 0) {
+                        var _temp = array[index - 1];
+                        array[index - 1] = rule;
+                        array[index] = _temp;
+                    }
+                    else {
+                        var _temp = array[index + 1];
+                        array[index + 1] = rule;
+                        array[index] = _temp;
+                    }
+                }
+                _this.setItems(array);
+            }
+        };
+        _this.list = React.createRef();
         return _this;
     }
     App.prototype.componentDidMount = function () {
         var _this = this;
-        for (var i = 0; i < 40; i++)
-            setTimeout(function () { _this.createRule(); }, i * 5);
+        for (var i = 0; i < 5; i++)
+            setTimeout(function () {
+                _this.addRuleToEnd();
+            }, i * 5);
         document.addEventListener("mouseup", function (e) {
-            if (!e.target.classList.contains("list-item-header")) {
-                _this.selectRule(undefined);
-            }
+            // if (!(e.target as HTMLElement).classList.contains("list-item-header")) {
+            //     this.selectRule(undefined);
+            // }
         });
-        document.addEventListener("wheel", function (e) {
-            var _a, _b;
-            var firstElementHeight = (_a = document.querySelector(".item")) === null || _a === void 0 ? void 0 : _a.clientHeight;
-            var movement = 70 * (e.deltaY / Math.abs(e.deltaY));
-            var newOffset = _this.state.offset;
-            if (_this.container.clientHeight > window.innerHeight || _this.state.items.length > SIZE) {
-                if (movement > 0 && _this.container.clientHeight - window.innerHeight > 0) {
-                    newOffset = Math.max(_this.state.offset - movement, window.innerHeight - _this.container.clientHeight);
-                    if (newOffset <= -firstElementHeight) {
-                        newOffset += firstElementHeight;
-                        _this.setState({ from: Math.min(_this.state.from + 1, _this.state.items.length - 1) });
-                    }
-                }
-                else if (movement < 0) {
-                    newOffset = Math.min(_this.state.offset - movement, 0);
-                    if (newOffset >= 0 && _this.state.from > 0) {
-                        _this.setState({ from: Math.max(_this.state.from - 1, 0) }, function () {
-                            var _a;
-                            firstElementHeight = (_a = document.querySelector(".item")) === null || _a === void 0 ? void 0 : _a.clientHeight;
-                            newOffset -= firstElementHeight;
-                        });
-                    }
-                }
+        document.addEventListener("keyup", function (e) {
+            if (e.key == "Control") {
+                _this.setState({ isInEditMode: false });
             }
-            _this.setState({ offset: newOffset });
-            console.log(_this.state.offset, -((_b = document.querySelector(".item")) === null || _b === void 0 ? void 0 : _b.clientHeight));
         });
         document.addEventListener("keydown", function (e) {
             //delete
@@ -28730,14 +29339,27 @@ var App = /** @class */ (function (_super) {
             //         this.deleteRule(val);
             //     });
             // }
+            if (e.key == "Control") {
+                _this.setState({ isInEditMode: true });
+            }
             //up-arrow | w
             if (e.keyCode == 38 /**|| e.keyCode == 87*/) {
-                _this.state.selected.forEach(function (val, i) {
+                var index = _this.state.items.indexOf(_this.state.selected[0]);
+                if (index > 0) {
+                    var query = document.querySelector("#list-element-" + (index - 1));
+                    _this.list.current.move(query.getBoundingClientRect().height);
+                }
+                _this.state.selected.forEach(function (val) {
                     _this.moveRule(val, -1);
                 });
             }
             //down-arrow | s
             else if (e.keyCode == 40 /**|| e.keyCode == 83 */) {
+                var index = _this.state.items.indexOf(_this.state.selected[_this.state.selected.length - 1]);
+                if (index < _this.state.items.length - 1) {
+                    var query = document.querySelector("#list-element-" + (index + 1));
+                    _this.list.current.move(-query.getBoundingClientRect().height);
+                }
                 _this.state.selected.forEach(function (val, i) {
                     _this.moveRule(val, 1);
                 });
@@ -28759,10 +29381,12 @@ var App = /** @class */ (function (_super) {
             else if (e.keyCode == 86 && e.ctrlKey) {
                 if (_this.state.clipboard) {
                     _this.state.clipboard.forEach(function (val, i) {
-                        if (_this.state.selected[0])
-                            _this.insertRule(val.clone(), _this.state.items.indexOf(_this.state.selected[0]) + i + 1);
+                        if (_this.state.selected.length > 0)
+                            _this.insertRuleAtIndex(val.clone(), _this.state.items.indexOf(_this.state.selected[_this.state.selected.length - 1]) +
+                                i +
+                                1);
                         else
-                            _this.insertRule(val.clone(), _this.state.items.length);
+                            _this.insertRuleAtIndex(val.clone(), _this.state.items.length);
                     });
                 }
             }
@@ -28779,7 +29403,7 @@ var App = /** @class */ (function (_super) {
             else if (e.keyCode == 68 && e.ctrlKey) {
                 if (_this.state.selected) {
                     _this.state.selected.forEach(function (val, i) {
-                        _this.insertRule(val === null || val === void 0 ? void 0 : val.clone(), _this.state.items.indexOf(val) + 1);
+                        _this.insertRuleAtIndex(val === null || val === void 0 ? void 0 : val.clone(), _this.state.items.indexOf(val) + 1);
                     });
                 }
             }
@@ -28789,185 +29413,76 @@ var App = /** @class */ (function (_super) {
     App.prototype.setItems = function (items, callback) {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0: return [4 /*yield*/, this.setState({ items: items }, callback)];
-                    case 1:
-                        _a.sent();
-                        App.items = items;
-                        return [2 /*return*/];
-                }
+                this.setState({ items: items }, callback);
+                App.items = items;
+                return [2 /*return*/];
             });
         });
     };
     App.prototype.reload = function () {
         this.setItems(__spreadArrays(this.state.items));
     };
-    App.prototype.newRule = function () {
-        return new Rule_1["default"](this, "new rule " + Math.floor(Math.random() * 100));
-    };
-    App.prototype.createRule = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0: return [4 /*yield*/, this.setItems(__spreadArrays(this.state.items, [this.newRule()]))];
-                    case 1:
-                        _a.sent();
-                        return [2 /*return*/];
-                }
-            });
-        });
-    };
-    App.prototype.insertRule = function (rule, index) {
-        if (rule) {
-            var array = [];
-            for (var i = 0; i < this.state.items.length + 1; i++) {
-                var item = this.state.items[i];
-                if (i == index)
-                    array.push(rule);
-                if (item)
-                    array.push(item);
-            }
-            this.setItems(array);
-        }
-    };
-    App.prototype.alterRule = function (rule, params) {
-        var _this = this;
-        this.state.items.forEach(function (e, i) {
-            if (e.id == rule.id) {
-                Object.keys(params).forEach(function (f, j) {
-                    if (e[f] instanceof Value_1["default"])
-                        e[f].value = params[f];
-                    else
-                        e[f] = params[f];
-                });
-            }
-        });
-        this.setItems(__spreadArrays(this.state.items), function () {
-            _this.setState({ offset: Math.max(_this.state.offset, -10) });
-        });
-    };
-    App.prototype.deleteRule = function (rule) {
-        var _a;
-        var array = [];
-        for (var i = 0; i < ((_a = this.state) === null || _a === void 0 ? void 0 : _a.items.length); i++) {
-            var item = this.state.items[i];
-            if (item != rule)
-                array.push(item);
-        }
-        this.setItems(array);
-    };
-    App.prototype.selectRule = function (rule, append, multiple) {
-        var _a;
-        var selected = [rule];
-        if (multiple) {
-            if ((_a = this.state) === null || _a === void 0 ? void 0 : _a.selected[this.state.selected.length - 1]) {
-                var start = this.state.items.indexOf(this.state.selected[this.state.selected.length - 1]);
-                var end = this.state.items.indexOf(rule) + 1;
-                if (start < end)
-                    selected = this.state.items.slice(start, end);
-                else
-                    selected = this.state.items.slice(end - 1, start + 1);
-            }
-        }
-        if (append) {
-            if (!multiple && this.state.selected.includes(selected[selected.length - 1])) {
-                var array_1 = [];
-                this.state.selected.forEach(function (val, i) {
-                    if (val != selected[selected.length - 1])
-                        array_1.push(val);
-                });
-                this.setState({ selected: __spreadArrays(array_1, selected.splice(0, selected.length - 1)) });
-            }
-            else
-                this.setState({ selected: __spreadArrays(this.state.selected, selected) });
-        }
-        else
-            this.setState({ selected: __spreadArrays(selected) });
-    };
-    App.prototype.moveRule = function (rule, step) {
-        if (rule) {
-            var array = __spreadArrays(this.state.items);
-            for (var i = 0; i < Math.abs(step); i++) {
-                var index = array.indexOf(rule);
-                if ((index == 0 && step < 0) || (index == array.length - 1 && step > 0))
-                    break;
-                if (step < 0) {
-                    var _temp = array[index - 1];
-                    array[index - 1] = rule;
-                    array[index] = _temp;
-                }
-                else {
-                    var _temp = array[index + 1];
-                    array[index + 1] = rule;
-                    array[index] = _temp;
-                }
-            }
-            this.setItems(array);
-        }
-    };
-    App.prototype.printFilter = function () {
-        var output = "";
-        this.state.items.forEach(function (val, i) {
-            output += val.print();
-        });
-        console.log(output);
-        return output;
-    };
-    App.prototype.loadFilter = function (input) {
-        var _this = this;
-        var lines = input.split("\n");
-        var output = [];
-        var rule;
-        lines.forEach(function (line) {
-            line = line.trim();
-            if (line.length > 0) {
-                if (line.split(" ").includes("Show") || line.split(" ").includes("Hide")) {
-                    if (rule)
-                        output.push(rule);
-                    rule = _this.newRule();
-                    rule.show = line.split(" ").includes("Show");
-                }
-                else if (line.charAt(0) != '#') {
-                    var words = line.split("#")[0].split(" ");
-                    words = words.reduce(function (p, c, i) {
-                        return (c.trim().length > 0) ? __spreadArrays(p, [c]) : __spreadArrays(p);
-                    }, []);
-                    rule.loadValue(words[0], words.splice(1, words.length));
-                }
-            }
-        });
-        output.push(rule);
-        console.log(output);
-        this.setItems(output);
-    };
     App.prototype.render = function () {
         var _this = this;
-        return (React.createElement("div", null,
-            React.createElement("div", { ref: function (container) { _this.container = container; }, style: { position: "absolute", width: "100%", left: 0, top: 0, marginTop: this.state.offset, padding: "20px 0px" } },
-                this.state.items.map(function (e, i) {
-                    var _a, _b;
-                    return (i >= _this.state.from && i <= _this.state.from + SIZE) ? React.createElement(Item_1["default"], { key: i, item: e, select: function (append, multiple) { _this.selectRule(e, append, multiple); }, alter: function (params) { _this.alterRule(e, params); }, duplicate: function () { _this.insertRule(e.clone(), _this.state.items.indexOf(e) + 1); }, "delete": function () { _this.deleteRule(e); }, selected: (_b = (_a = _this.state) === null || _a === void 0 ? void 0 : _a.selected) === null || _b === void 0 ? void 0 : _b.includes(e) }) : '';
-                }),
-                React.createElement("div", { style: { display: "flex", justifyContent: "center" } },
-                    React.createElement("button", { className: "button", style: {}, onClick: function (e) { _this.createRule(); e.stopPropagation(); } }, "Add new rule"))),
-            React.createElement("div", { style: { position: "fixed" } },
-                React.createElement("button", { className: "button", style: { left: 10, position: "fixed", zIndex: 100 }, onClick: function () {
-                        fetch("http://localhost:3001", {
-                            method: "POST",
-                            body: JSON.stringify({ action: 'load' })
-                        }).then(function (res) { return res.json(); }).then(function (res) { _this.loadFilter(res.data); });
-                    } }, "Load!"),
-                React.createElement("button", { className: "button", style: { left: 75, position: "fixed", zIndex: 100 }, onClick: function () {
-                        fetch("http://localhost:3001", {
-                            method: "POST",
-                            body: JSON.stringify({ action: 'save', data: _this.printFilter() })
-                        }).then(function (res) { return res.json(); }).then(function (res) { console.log(res); });
-                    } }, "Save!"))));
+        var provider = {
+            editedRule: this.state.editedRule,
+            selected: this.state.selected,
+            createNew: function () {
+                _this.setState({
+                    offset: 0,
+                    from: 0,
+                    selected: [],
+                    clipboard: [],
+                    items: [],
+                    isInEditMode: false,
+                });
+                _this.list.current.move(0);
+            },
+            addBegin: function () { return _this.addRuleToBegin(); },
+            addAfter: function () { return _this.addRuleAfterSelected(); },
+            addEnd: function () { return _this.addRuleToEnd(); },
+            select: function (rule, append, multiple) {
+                _this.selectRule(rule, append, multiple);
+            },
+            openEdit: function (rule) {
+                _this.setState({ editedRule: rule });
+            },
+            alter: function (rule, params) {
+                _this.alterRule(rule, params);
+            },
+            duplicate: function (r) {
+                _this.insertRuleAfterIndex(r.clone(), _this.state.items.indexOf(r));
+            },
+            "delete": function (r) {
+                _this.deleteRule(r);
+            },
+            deleteSelected: function () { return _this.deleteSelectedRules(); },
+            moveRuleToTop: function (rule) { return _this.moveRuleToTop(rule); },
+            moveSelectedToTop: function () { return _this.moveSelectedToTop(); },
+            moveRuleToBottom: function (rule) { return _this.moveRuleToBottom(rule); },
+            moveSelectedToBottom: function () { return _this.moveSelectedToBottom(); },
+            load: function (data) {
+                _this.setItems(Filter_1.loadFilter(_this.getNewRule, data));
+                _this.list.current.bar.current.move(0);
+            },
+            print: function () { return Filter_1.printFilter(_this.state.items); },
+        };
+        return (React.createElement(AppContext_1["default"].Provider, { value: provider },
+            React.createElement("div", { style: {
+                    position: "absolute",
+                    width: "100%",
+                    left: 0,
+                    top: 0,
+                } },
+                React.createElement(RenderedList_1["default"], { ref: this.list }, this.state.items.map(function (e, i) {
+                    return React.createElement(Item_1["default"], { key: i, item: e });
+                }))),
+            React.createElement(Toolbar_1["default"], null)));
     };
     App.items = [];
     return App;
 }(React.Component));
-ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
+ReactDOM.render(React.createElement(App, null), document.getElementById("root"));
 exports["default"] = App;
 
 
@@ -28997,6 +29512,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 exports.__esModule = true;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var NumberInput_1 = __webpack_require__(/*! ./inputs/NumberInput */ "./src/components/inputs/NumberInput.tsx");
 var ColorSection_1 = __webpack_require__(/*! ./sections/ColorSection */ "./src/components/sections/ColorSection.tsx");
 var CollectionSection_1 = __webpack_require__(/*! ./sections/CollectionSection */ "./src/components/sections/CollectionSection.tsx");
 var SignedSection_1 = __webpack_require__(/*! ./sections/SignedSection */ "./src/components/sections/SignedSection.tsx");
@@ -29007,85 +29523,143 @@ var EffectSection_1 = __webpack_require__(/*! ./sections/EffectSection */ "./src
 var MapIconSection_1 = __webpack_require__(/*! ./sections/MapIconSection */ "./src/components/sections/MapIconSection.tsx");
 var AlertSoundSection_1 = __webpack_require__(/*! ./sections/AlertSoundSection */ "./src/components/sections/AlertSoundSection.tsx");
 var CustomSoundSection_1 = __webpack_require__(/*! ./sections/CustomSoundSection */ "./src/components/sections/CustomSoundSection.tsx");
+var AppContext_1 = __webpack_require__(/*! ../logic/AppContext */ "./src/logic/AppContext.tsx");
 var DEFAULT_NAME = "Mirror of Kalandra";
 var Item = /** @class */ (function (_super) {
     __extends(Item, _super);
     function Item() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    Item.prototype.componentDidMount = function () {
-    };
     Item.prototype.render = function () {
-        var _this = this;
         var item = this.props.item;
+        var _a = this.context, alter = _a.alter, select = _a.select, selected = _a.selected;
         return (React.createElement("div", { className: "item" },
             React.createElement("div", { className: "list-item-container" },
-                React.createElement("div", { className: "list-item", onClick: function (e) { var _a; e.stopPropagation(); (_a = _this.props) === null || _a === void 0 ? void 0 : _a.select(e.ctrlKey, e.shiftKey); }, onContextMenu: function () { var _a; (_a = _this.props) === null || _a === void 0 ? void 0 : _a.alter({ active: !item.active }); } /*this.props.alter*/, style: {
-                        border: (this.props.selected) ? "3px solid red" : "3px solid #444",
-                        color: (this.props.selected) ? "#eee" : "",
+                React.createElement("div", { className: "list-item", onClick: function (e) {
+                        select(item, e.ctrlKey, e.shiftKey);
+                        e.stopPropagation();
                     } },
-                    React.createElement("div", { className: "list-item-header" },
-                        React.createElement("div", { style: { marginRight: 10, padding: "2px 4px", border: "3px solid #444", backgroundColor: (item.show) ? "#a5f7a5" : "#ff9393" } }, item.show ? "Show" : "Hide"),
-                        React.createElement("div", { className: "list-item-header-box", style: { backgroundColor: item.getColor(item.background), color: item.getColor(item.font), borderColor: item.getColor(item.border), fontSize: item.getSize() } },
-                            React.createElement("p", null, (!!this.props.item.title) ? this.props.item.title : DEFAULT_NAME)),
-                        React.createElement("div", { style: { position: "absolute", height: "100%", top: "0px", right: "0px", display: "flex" } },
-                            React.createElement("button", { className: "button", style: { width: "32px", height: "32px" }, onClick: function (e) { var _a; (_a = _this.props) === null || _a === void 0 ? void 0 : _a.duplicate(); e.stopPropagation(); } }, "D"),
-                            React.createElement("button", { className: "button", style: { width: "32px", height: "32px", marginLeft: "2px" }, onClick: function (e) { var _a; (_a = _this.props) === null || _a === void 0 ? void 0 : _a["delete"](); e.stopPropagation(); } }, "X"))),
-                    (item.active) ? React.createElement("div", { className: "list-item-inputs" },
-                        React.createElement("div", null,
-                            React.createElement(ColorSection_1["default"], { title: "Background", flex: 1, value: item.background, alter: this.props.alter }),
-                            React.createElement(ColorSection_1["default"], { title: "Font", flex: 1, value: item.font, alter: this.props.alter }),
-                            React.createElement(ColorSection_1["default"], { title: "Border", flex: 1, value: item.border, alter: this.props.alter })),
-                        React.createElement("div", null,
-                            React.createElement(EffectSection_1["default"], { title: "Effect", value: item.effect }),
-                            React.createElement(MapIconSection_1["default"], { title: "Map Icon", flex: 1, value: item.icon }),
-                            React.createElement(AlertSoundSection_1["default"], { title: "Alert Sound", value: item.alertsound }),
-                            React.createElement(CustomSoundSection_1["default"], { title: "Custom Sound", value: item.customsound })),
-                        React.createElement("div", null,
-                            React.createElement(CollectionSection_1["default"], { title: "Class", flex: 2, value: item["class"] }),
-                            React.createElement(FetchSection_1["default"], { title: "Basetype", flex: 4, value: item.basetype }),
-                            React.createElement(SignedTextSection_1["default"], { title: "Rarity", value: item.rarity }),
-                            React.createElement(SignedSection_1["default"], { title: "Quality", value: item.quality })),
-                        React.createElement("div", null,
-                            React.createElement(CollectionSection_1["default"], { title: "Explicit Mod", flex: 2, value: item.explicit }),
-                            React.createElement(CollectionSection_1["default"], { title: "Prophecy", flex: 2, value: item.prophecy }),
-                            React.createElement(CollectionSection_1["default"], { title: "Has Enchant", flex: 2, value: item.enchantment }),
-                            React.createElement(CollectionSection_1["default"], { title: "Socket Group", flex: 2, value: item.socketgroup })),
-                        React.createElement("div", null,
-                            React.createElement(SignedSection_1["default"], { title: "Area Level", min: 1, value: item.arealevel }),
-                            React.createElement(SignedSection_1["default"], { title: "Item Level", min: 1, value: item.itemlevel }),
-                            React.createElement(SignedSection_1["default"], { title: "Drop Level", min: 1, value: item.droplevel }),
-                            React.createElement(SignedSection_1["default"], { title: "Sockets", min: 1, max: 6, value: item.sockets }),
-                            React.createElement(SignedSection_1["default"], { title: "Linked Sockets", min: 1, max: 6, value: item.linked }),
-                            React.createElement(SignedSection_1["default"], { title: "Corrupted Mods", value: item.corruptedmods })),
-                        React.createElement("div", null,
-                            React.createElement(SignedSection_1["default"], { title: "Gem Level", min: 1, max: 30, value: item.gemlevel }),
-                            React.createElement(SignedSection_1["default"], { title: "Stack Size", value: item.stacksize }),
-                            React.createElement(SignedSection_1["default"], { title: "Map Tier", value: item.maptier }),
-                            React.createElement(SignedSection_1["default"], { title: "Width", value: item.width }),
-                            React.createElement(SignedSection_1["default"], { title: "Height", value: item.height }),
-                            React.createElement(ToggleSection_1["default"], { title: "Identified", value: item.identified }),
-                            React.createElement(ToggleSection_1["default"], { title: "Corrupted", value: item.corrupted })),
-                        React.createElement("div", null,
-                            React.createElement(ToggleSection_1["default"], { title: "Any Enchant", value: item.anyenchantment }),
-                            React.createElement(ToggleSection_1["default"], { title: "Shaped Item", value: item.shaper }),
-                            React.createElement(ToggleSection_1["default"], { title: "Elder Item", value: item.elder }),
-                            React.createElement(ToggleSection_1["default"], { title: "Mirrored", value: item.mirrored }),
-                            React.createElement(ToggleSection_1["default"], { title: "Fractured", value: item.fractured }),
-                            React.createElement(ToggleSection_1["default"], { title: "Synthesised", value: item.synthesis }),
-                            React.createElement(ToggleSection_1["default"], { title: "Shaped Map", value: item.shapedmap }))) : ""))));
+                    React.createElement(RuleHeader, { item: item }),
+                    React.createElement(RuleSections, { item: item, alter: function (params) {
+                            alter(item, params);
+                        } })))));
     };
+    Item.contextType = AppContext_1["default"];
     return Item;
 }(React.Component));
+function ToggleShowButton(props) {
+    var alter = React.useContext(AppContext_1["default"]).alter;
+    var rule = props.rule;
+    return rule ? (React.createElement("div", { style: {
+            position: "absolute",
+            left: -76,
+            width: 50,
+            padding: "4px 8px",
+            borderRadius: 2,
+            color: "white",
+            backgroundColor: rule.show ? "#588a58" : "#ff9393",
+        }, onClick: function (e) {
+            alter(rule, { show: !rule.show });
+            e.stopPropagation();
+        } }, rule.show ? "Show" : "Hide")) : null;
+}
+function RuleBox(props) {
+    var item = props.item, selected = props.selected;
+    var _a = React.useContext(AppContext_1["default"]), select = _a.select, alter = _a.alter;
+    return (React.createElement("div", { className: "list-item-header-background", style: {
+            border: selected ? "4px solid red" : "",
+        } },
+        React.createElement(ToggleShowButton, { rule: item }),
+        React.createElement("div", { className: "list-item-header-box", style: {
+                backgroundColor: item.getColor(item.background),
+                color: item.getTextColor(),
+                borderColor: item.getColor(item.border),
+                fontSize: item.getSize(),
+            } },
+            React.createElement("p", null, item.getTitle())),
+        React.createElement(NumberInput_1["default"], { flex: 0, containerStyle: { position: "absolute", right: -40 }, min: 30, max: 45, value: item.size.value, onChange: function (value) {
+                item.size.alter(value);
+            } })));
+}
+function RuleHeader(props) {
+    var item = props.item;
+    var _a = React.useContext(AppContext_1["default"]), alter = _a.alter, selected = _a.selected;
+    return (React.createElement("div", { className: "list-item-header", onContextMenu: function () {
+            alter(item, { active: !item.active });
+        } },
+        React.createElement(RuleBox, { item: item, selected: selected.includes(item) })));
+}
+function RuleSections(props) {
+    var item = props.item, alter = props.alter;
+    var _a = React.useContext(AppContext_1["default"]), editedRule = _a.editedRule, openEdit = _a.openEdit;
+    return item && item.active ? (React.createElement(React.Fragment, null,
+        React.createElement("div", { className: "list-item-inputs" },
+            React.createElement(ColorSection_1["default"], { title: "Background", flex: 1, value: item.background, alter: alter }),
+            React.createElement(ColorSection_1["default"], { title: "Font", flex: 1, value: item.font, alter: alter }),
+            React.createElement(ColorSection_1["default"], { title: "Border", flex: 1, value: item.border, alter: alter }),
+            React.createElement(EffectSection_1["default"], { title: "Effect", value: item.effect }),
+            React.createElement(MapIconSection_1["default"], { title: "Map Icon", flex: 1, value: item.icon }),
+            React.createElement(AlertSoundSection_1["default"], { title: "Alert Sound", value: item.alertsound }),
+            React.createElement(CustomSoundSection_1["default"], { title: "Custom Sound", value: item.customsound }),
+            React.createElement(SignedTextSection_1["default"], { title: "Rarity", value: item.rarity }),
+            React.createElement(SignedSection_1["default"], { title: "Quality", value: item.quality }),
+            React.createElement(CollectionSection_1["default"], { title: "Explicit Mod", flex: 2, value: item.explicit }),
+            React.createElement(CollectionSection_1["default"], { title: "Prophecy", flex: 2, value: item.prophecy }),
+            React.createElement(CollectionSection_1["default"], { title: "Has Enchant", flex: 2, value: item.enchantment }),
+            React.createElement(CollectionSection_1["default"], { title: "Socket Group", flex: 2, value: item.socketgroup }),
+            React.createElement(SignedSection_1["default"], { title: "Area Level", min: 1, value: item.arealevel }),
+            React.createElement(SignedSection_1["default"], { title: "Item Level", min: 1, value: item.itemlevel }),
+            React.createElement(SignedSection_1["default"], { title: "Drop Level", min: 1, value: item.droplevel }),
+            React.createElement(SignedSection_1["default"], { title: "Sockets", min: 1, max: 6, value: item.sockets }),
+            React.createElement(SignedSection_1["default"], { title: "Linked Sockets", min: 1, max: 6, value: item.linked }),
+            React.createElement(SignedSection_1["default"], { title: "Corrupted Mods", value: item.corruptedmods }),
+            React.createElement(SignedSection_1["default"], { title: "Gem Level", min: 1, max: 30, value: item.gemlevel }),
+            React.createElement(SignedSection_1["default"], { title: "Stack Size", value: item.stacksize }),
+            React.createElement(SignedSection_1["default"], { title: "Map Tier", value: item.maptier }),
+            React.createElement(SignedSection_1["default"], { title: "Width", value: item.width }),
+            React.createElement(SignedSection_1["default"], { title: "Height", value: item.height }),
+            React.createElement(ToggleSection_1["default"], { title: "Identified", value: item.identified }),
+            React.createElement(ToggleSection_1["default"], { title: "Corrupted", value: item.corrupted }),
+            React.createElement(ToggleSection_1["default"], { title: "Any Enchant", value: item.anyenchantment }),
+            React.createElement(ToggleSection_1["default"], { title: "Shaped Item", value: item.shaper }),
+            React.createElement(ToggleSection_1["default"], { title: "Elder Item", value: item.elder }),
+            React.createElement(ToggleSection_1["default"], { title: "Mirrored", value: item.mirrored }),
+            React.createElement(ToggleSection_1["default"], { title: "Fractured", value: item.fractured }),
+            React.createElement(ToggleSection_1["default"], { title: "Synthesised", value: item.synthesis }),
+            React.createElement(ToggleSection_1["default"], { title: "Shaped Map", value: item.shapedmap }),
+            React.createElement(CollectionSection_1["default"], { title: "Class", flex: 2, value: item["class"] }),
+            React.createElement(FetchSection_1["default"], { title: "Basetype", flex: 4, value: item.basetype })),
+        React.createElement("button", { onClick: function () { return openEdit(editedRule == item ? undefined : item); } }, editedRule == item ? "Done" : "Add more..."))) : null;
+}
+function Toolbar(props) {
+    var _this = this;
+    return (React.createElement("div", { style: {
+            position: "absolute",
+            height: "100%",
+            top: "0px",
+            right: "0px",
+            display: "flex",
+        } },
+        React.createElement("button", { className: "button", style: { width: "32px", height: "32px" }, onClick: function (e) {
+                var _a;
+                (_a = _this.props) === null || _a === void 0 ? void 0 : _a.duplicate();
+                e.stopPropagation();
+            } }, "D"),
+        React.createElement("button", { className: "button", style: { width: "32px", height: "32px", marginLeft: "2px" }, onClick: function (e) {
+                var _a;
+                (_a = _this.props) === null || _a === void 0 ? void 0 : _a["delete"]();
+                e.stopPropagation();
+            } }, "X")));
+}
 exports["default"] = Item;
 
 
 /***/ }),
 
-/***/ "./src/components/inputs/ColorInput.tsx":
-/*!**********************************************!*\
-  !*** ./src/components/inputs/ColorInput.tsx ***!
-  \**********************************************/
+/***/ "./src/components/RenderedBar.tsx":
+/*!****************************************!*\
+  !*** ./src/components/RenderedBar.tsx ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29106,100 +29680,378 @@ var __extends = (this && this.__extends) || (function () {
 })();
 exports.__esModule = true;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-var ColorInput = /** @class */ (function (_super) {
-    __extends(ColorInput, _super);
-    function ColorInput(props) {
+var RenderedBar = /** @class */ (function (_super) {
+    __extends(RenderedBar, _super);
+    function RenderedBar(props) {
         var _this = _super.call(this, props) || this;
-        _this.canSelect = true;
-        _this.state = { id: Math.random() + '', pressed: false, hue: 0, sat: 100, light: 0 };
+        _this.state = {
+            active: false,
+            delta: 0,
+            top: 0,
+        };
+        _this.handle = React.createRef();
         return _this;
     }
-    ColorInput.prototype.hslToRgb = function (h, s, l) {
-        var r, g, b;
-        if (s == 0) {
-            r = g = b = l; // achromatic
-        }
-        else {
-            var hue2rgb = function hue2rgb(p, q, t) {
-                if (t < 0)
-                    t += 1;
-                if (t > 1)
-                    t -= 1;
-                if (t < 1 / 6)
-                    return p + (q - p) * 6 * t;
-                if (t < 1 / 2)
-                    return q;
-                if (t < 2 / 3)
-                    return p + (q - p) * (2 / 3 - t) * 6;
-                return p;
-            };
-            var q = l < 0.5 ? l * (1 + s) : l + s - l * s;
-            var p = 2 * l - q;
-            r = hue2rgb(p, q, h + 1 / 3);
-            g = hue2rgb(p, q, h);
-            b = hue2rgb(p, q, h - 1 / 3);
-        }
-        return { red: Math.round(r * 255), green: Math.round(g * 255), blue: Math.round(b * 255) };
+    RenderedBar.prototype.componentDidMount = function () {
+        var _this = this;
+        this.handle.current.addEventListener("mousedown", function (e) {
+            _this.setState({
+                active: true,
+                // delta: e.clientY - this.handle.current.getBoundingClientRect().y,
+                delta: 0,
+            }, function () {
+                _this.move(e.clientY);
+            });
+        });
+        document.addEventListener("mouseup", function (e) {
+            _this.setState({ active: false }, function () {
+                _this.setState({
+                    top: _this.correctOffset(_this.state.top),
+                });
+            });
+        });
+        document.addEventListener("mousemove", function (e) {
+            if (_this.state.active)
+                _this.move(e.clientY);
+        });
     };
-    ColorInput.prototype.componentDidMount = function () {
-        // if (this.refs.img) {
-        //   let img = (this.refs.img as HTMLElement)
-        //   img.addEventListener("mousedown", (e) => {
-        //     this.setState({ pressed: true });
-        //     let hue = Math.round(Math.max(e.offsetX, 0) / this.props.width * 360);
-        //     let light = Math.round((this.props.height - e.offsetY) / this.props.height * 100);
-        //     this.select(hue, this.state.sat, light);
-        //   })
-        //   img.addEventListener("mouseup", (e) => {
-        //     this.setState({ pressed: false });
-        //   })
-        //   img.addEventListener("mouseout", (e) => {
-        //     this.setState({ pressed: false });
-        //   })
-        //   img.addEventListener("mousemove", (e) => {
-        //     if (this.state.pressed) {
-        // let hue = Math.round(Math.max(e.offsetX, 0) / this.props.width * 360);
-        // let light = Math.round((this.props.height - e.offsetY) / this.props.height * 100);
-        // this.select(hue, this.state.sat, light);
-        //     }
-        //   })
+    RenderedBar.prototype.correctOffset = function (offset) {
+        var _a, _b, _c;
+        return Math.min(offset, ((_a = this.props.parent.ref.current) === null || _a === void 0 ? void 0 : _a.clientHeight) - ((_c = (_b = this.handle) === null || _b === void 0 ? void 0 : _b.current) === null || _c === void 0 ? void 0 : _c.clientHeight));
+    };
+    RenderedBar.prototype.move = function (y) {
+        var parent = this.props.parent;
+        console.log(y);
+        if (parent.ref.current != undefined) {
+            this.setState({
+                top: Math.max(Math.min(y - this.state.delta, parent.ref.current.clientHeight -
+                    this.handle.current.getBoundingClientRect().height), 0),
+            }, function () {
+                var index = Math.floor(Math.max(Math.min(y / parent.ref.current.clientHeight, 1), 0) *
+                    (parent.props.children.length - 1));
+                if (index < parent.props.children.length - parent.state.size) {
+                    // if (parent.state.from != index) {
+                    parent.setState({ from: index }, function () {
+                        parent.setOffset(0);
+                    });
+                    // }
+                }
+                else {
+                    parent.setState({ from: Math.max(index - parent.state.size, 0) }, function () {
+                        if (parent.ref2.current.clientHeight >
+                            parent.ref.current.clientHeight) {
+                            index -= parent.state.from;
+                            var query = document.querySelectorAll(".list-element");
+                            var sum = 0;
+                            for (var i = 0; i < index; i++) {
+                                if (query[i] != undefined)
+                                    sum += query[i].getBoundingClientRect().height;
+                            }
+                            if (parent.ref2.current.clientHeight - sum >=
+                                parent.ref.current.clientHeight)
+                                parent.setOffset(-sum);
+                            else
+                                parent.setOffset(Math.floor(parent.ref.current.clientHeight -
+                                    parent.ref2.current.clientHeight));
+                        }
+                        else
+                            parent.setOffset(0);
+                    });
+                }
+            });
+        }
+        // this.fixBar();
+    };
+    RenderedBar.prototype.setBarIndex = function (index) {
+        var length = this.props.parent.props.children.length;
+        var clientHeight = this.props.parent.ref.current.clientHeight;
+        var handleHeight = this.handle.current.clientHeight;
+        this.setState({
+            top: Math.min((index / length) * clientHeight, clientHeight - handleHeight),
+        });
+    };
+    RenderedBar.prototype.countElements = function () {
+        var n = 0;
+        if (this.props.parent.ref.current) {
+            var clientHeight = this.props.parent.ref.current.clientHeight;
+            var query = document.querySelectorAll(".list-element");
+            for (var i = 0; i < query.length; i++) {
+                var _a = query[i].getBoundingClientRect(), y = _a.y, height = _a.height;
+                if (y + height > 0 && y + height <= clientHeight)
+                    n++;
+            }
+        }
+        return n;
+    };
+    RenderedBar.prototype.fixBar = function () {
+        var _a = this.props.parent.state, from = _a.from, size = _a.size;
+        var length = this.props.parent.props.children.length;
+        if (from < length - size)
+            this.setBarIndex(from);
+        else {
+            var query = document.querySelectorAll(".list-element");
+            for (var i = 0; i < query.length; i++) {
+                var rect = query[i].getBoundingClientRect();
+                if (rect.y > 0) {
+                    this.setBarIndex(i + from);
+                    break;
+                }
+            }
+        }
+    };
+    RenderedBar.prototype.goToIndex = function (index) {
+        // if (length - e.id > this.props.parent.state.size)
+        //     this.props.parent.setState({ from: e.id }, () => {
+        //         this.setState({ delta: 0 }, () => {
+        //             this.move(e.id / length * height);
+        //         });
+        //     });
+        // else {
+        //     this.props.parent.setState({ from: length - this.props.parent.state.size }, () => {
+        //         this.setState({ delta: 0 }, () => {
+        //             this.move(e.id / length * height);
+        //         })
+        //     });
         // }
     };
-    ColorInput.prototype.select = function (hue, sat, light) {
-        var _this = this;
-        if (this.canSelect) {
-            this.canSelect = false;
-            this.setState({ hue: hue, sat: sat, light: light }, function () {
-                _this.canSelect = true;
+    RenderedBar.prototype.isLastVisible = function () {
+        var _a, _b, _c, _d;
+        var rect = (_b = (_a = this.props.parent.ref) === null || _a === void 0 ? void 0 : _a.current) === null || _b === void 0 ? void 0 : _b.getBoundingClientRect();
+        var rect2 = (_d = (_c = this.props.parent.ref2) === null || _c === void 0 ? void 0 : _c.current) === null || _d === void 0 ? void 0 : _d.getBoundingClientRect();
+        if (rect && rect2)
+            return rect.y + rect.height == rect2.y + rect2.height;
+        return false;
+    };
+    RenderedBar.prototype.render = function () {
+        var _a, _b;
+        var length = this.props.parent.props.children.length;
+        var _c = this.props.parent, ref = _c.ref, ref2 = _c.ref2;
+        var from = this.props.parent.state.from;
+        var height = 1;
+        if (ref.current != undefined) {
+            height = ref.current.getBoundingClientRect().height;
+        }
+        return (React.createElement("div", { style: {
+                display: ref2.current && ref2.current.clientHeight > height
+                    ? "block"
+                    : "none",
+                userSelect: "none",
+            } },
+            React.createElement("div", { id: "scroll-bar", style: {
+                    userSelect: "none",
+                    position: "absolute",
+                    top: 0,
+                    right: 10,
+                    width: 10,
+                    height: "100%",
+                } },
+                React.createElement("div", { ref: this.handle, id: "scroll-handle", style: {
+                        position: "relative",
+                        userSelect: "none",
+                        top: Math.min(this.state.top, height - ((_b = (_a = this.handle) === null || _a === void 0 ? void 0 : _a.current) === null || _b === void 0 ? void 0 : _b.clientHeight)),
+                        width: "100%",
+                        height: "max(" + (1 / length) * 100 + "%, 15px)",
+                        // height: `max(${(this.state.active ? 1 : this.countElements()) / length * 100}%, 15px)`,
+                        backgroundColor: this.state.active ? "gray" : "black",
+                        cursor: "pointer",
+                    } }))));
+    };
+    return RenderedBar;
+}(React.Component));
+exports["default"] = RenderedBar;
+
+
+/***/ }),
+
+/***/ "./src/components/RenderedList.tsx":
+/*!*****************************************!*\
+  !*** ./src/components/RenderedList.tsx ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+exports.__esModule = true;
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var RenderedBar_1 = __webpack_require__(/*! ./RenderedBar */ "./src/components/RenderedBar.tsx");
+var MOVE_SPEED = 50;
+var ScrollableList = /** @class */ (function (_super) {
+    __extends(ScrollableList, _super);
+    function ScrollableList(props) {
+        var _this = _super.call(this, props) || this;
+        _this.state = {
+            offset: 0,
+            from: 0,
+            size: 18,
+        };
+        _this.ref = React.createRef();
+        _this.ref2 = React.createRef();
+        _this.bar = React.createRef();
+        return _this;
+    }
+    ScrollableList.prototype.getOffset = function () {
+        var top = this.ref2.current.style.top;
+        return top ?
+            parseFloat(top.split("px")[0]) : 0;
+    };
+    ScrollableList.prototype.setOffset = function (value) {
+        if (this.ref2.current) {
+            this.setState({
+                offset: this.ref2.current.clientHeight
             });
-            var color = this.hslToRgb(hue / 360, sat / 100, light / 100);
-            this.props.onSelect(color.red, color.green, color.blue);
+            this.ref2.current.style.top = value + "px";
         }
     };
-    ColorInput.prototype.render = function () {
-        var _this = this;
-        return (React.createElement("div", { style: { width: this.props.width, height: this.props.height, border: "3px solid #444", position: "relative" } },
-            React.createElement("img", { ref: "img", onMouseDown: function (e) { _this.setState({ pressed: true }); }, onMouseUp: function (e) { _this.setState({ pressed: false }); }, onMouseOver: function (e) { _this.setState({ pressed: false }); }, onMouseMove: function (e) {
-                    if (_this.state.pressed) {
-                        var hue = Math.round(Math.max(e.nativeEvent.offsetX, 0) / _this.props.width * 360);
-                        var light = Math.round((_this.props.height - e.nativeEvent.offsetY) / _this.props.height * 100);
-                        _this.select(hue, _this.state.sat, light);
-                    }
-                }, draggable: false, style: { justifySelf: "center", }, src: "./gfx/palette.png", width: this.props.width, height: this.props.height }),
-            React.createElement("div", { id: "cursor", style: {
-                    pointerEvents: "none",
-                    position: "absolute",
-                    top: this.props.height - this.state.light - 1,
-                    left: this.props.width / 360 * this.state.hue - 2.5,
-                    width: 6, height: 6,
-                    borderRadius: 99,
-                    borderWidth: 2,
-                    borderColor: (this.state.light < 70) ? "#fff" : "#000", borderStyle: "solid"
-                } })));
+    ScrollableList.prototype.getSize = function () {
+        return this.props.children.length;
     };
-    return ColorInput;
+    ScrollableList.prototype.move = function (step) {
+        if (this.ref2.current && this.ref.current) {
+            if (this.ref2.current.getBoundingClientRect().height >= this.ref.current.getBoundingClientRect().height) {
+                this.setOffset(this.getOffset() + step);
+                this.reload();
+            }
+        }
+    };
+    ScrollableList.prototype.reload = function () {
+        var _this = this;
+        var query = document.querySelectorAll(".list-element");
+        var last = query[query.length - 1];
+        var rect = last.getBoundingClientRect();
+        if (rect.y >= this.ref.current.getBoundingClientRect().height + rect.height) {
+            this.setState({ to: this.state.from - 1 });
+        }
+        else {
+            if (this.state.from + this.state.size < this.getSize() - 1) {
+                if (rect.y + rect.height - MOVE_SPEED <= this.ref.current.getBoundingClientRect().height) {
+                    this.setState({ to: this.state.from + 1 });
+                }
+            }
+            else {
+                if (rect.y + rect.height <= this.ref.current.getBoundingClientRect().height) {
+                    this.setOffset(this.ref.current.getBoundingClientRect().height - this.ref2.current.getBoundingClientRect().height);
+                }
+            }
+        }
+        var first = query[0];
+        var _a = first.getBoundingClientRect(), y = _a.y, height = _a.height;
+        if (y >= 0) {
+            if (this.state.from > 0) {
+                this.setState({ from: this.state.from - 1 }, function () {
+                    var height = document.querySelector(".list-element").getBoundingClientRect().height;
+                    _this.setOffset(-height);
+                    if (document.querySelector(".list-element").getBoundingClientRect().y > 0)
+                        _this.reload();
+                });
+            }
+            else {
+                this.setOffset(0);
+            }
+        }
+        if (y <= -height * 2) {
+            if (this.getSize() - this.state.from > this.state.size) {
+                this.setState({ from: this.state.from + 1 }, function () {
+                    _this.setOffset(_this.getOffset() + height);
+                });
+            }
+        }
+        this.bar.current.fixBar();
+    };
+    ScrollableList.prototype.componentDidMount = function () {
+        var _this = this;
+        this.setState({ offset: this.ref2.current.clientHeight });
+        document.addEventListener("mousewheel", function (e) {
+            var sign = e.deltaY / Math.abs(e.deltaY);
+            _this.move(MOVE_SPEED * -sign);
+        });
+    };
+    ScrollableList.prototype.render = function () {
+        var _this = this;
+        return (React.createElement("div", { ref: this.ref, style: { height: window.innerHeight, overflow: "hidden" } },
+            React.createElement("div", { ref: this.ref2, style: { position: "relative" } }, this.props.children.map(function (e, i) {
+                if (i >= _this.state.from && i <= _this.state.from + _this.state.size)
+                    return React.createElement("div", { id: "list-element-" + i, className: "list-element" }, e);
+                else
+                    return null;
+            })),
+            React.createElement(RenderedBar_1["default"], { ref: this.bar, parent: this })));
+    };
+    return ScrollableList;
 }(React.Component));
-exports["default"] = ColorInput;
+exports["default"] = ScrollableList;
+
+
+/***/ }),
+
+/***/ "./src/components/Toolbar.tsx":
+/*!************************************!*\
+  !*** ./src/components/Toolbar.tsx ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+exports.__esModule = true;
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var AppContext_1 = __webpack_require__(/*! ../logic/AppContext */ "./src/logic/AppContext.tsx");
+function loadRequest(callback) {
+    fetch("http://localhost:3001", {
+        method: "POST",
+        body: JSON.stringify({ action: "load" }),
+    })
+        .then(function (res) { return res.json(); })
+        .then(function (res) {
+        callback(res.data);
+    });
+}
+function saveRequest(data) {
+    fetch("http://localhost:3001", {
+        method: "POST",
+        body: JSON.stringify({ action: "save", data: data }),
+    })
+        .then(function (res) { return res.json(); })
+        .then(function (res) {
+        console.log(res);
+    });
+}
+function Button(props) {
+    var title = props.title, onClick = props.onClick;
+    return (React.createElement("button", { className: "button", style: { marginBottom: 8 }, onClick: onClick }, title));
+}
+function Toolbar() {
+    var _a = React.useContext(AppContext_1["default"]), addBegin = _a.addBegin, addAfter = _a.addAfter, addEnd = _a.addEnd, deleteSelected = _a.deleteSelected, moveSelectedToTop = _a.moveSelectedToTop, moveSelectedToBottom = _a.moveSelectedToBottom, load = _a.load, print = _a.print, createNew = _a.createNew, selected = _a.selected;
+    return (React.createElement("div", { style: {
+            position: "fixed",
+            paddingTop: 20,
+            display: "flex",
+            flexDirection: "column",
+        } },
+        React.createElement(Button, { title: "New", onClick: createNew }),
+        React.createElement(Button, { title: "Load", onClick: function () { return loadRequest(load); } }),
+        React.createElement(Button, { title: "Save", onClick: function () { return saveRequest(print()); } }),
+        React.createElement(Button, { title: "Add Begin", onClick: function () { return addBegin(); } }),
+        React.createElement(React.Fragment, null, selected.length > 0 ? (React.createElement(Button, { title: "Add After", onClick: function () { return addAfter(); } })) : null),
+        React.createElement(Button, { title: "Add End", onClick: function () { return addEnd(); } }),
+        React.createElement(Button, { title: "Delete", onClick: function () { return deleteSelected(); } }),
+        React.createElement(Button, { title: "Move Top", onClick: function () { return moveSelectedToTop(); } }),
+        React.createElement(Button, { title: "Move Bottom", onClick: function () { return moveSelectedToBottom(); } })));
+}
+exports["default"] = Toolbar;
 
 
 /***/ }),
@@ -29246,15 +30098,19 @@ var NumberInput = /** @class */ (function (_super) {
     }
     NumberInput.prototype.render = function () {
         var _this = this;
-        return (React.createElement("div", { className: "input-number", style: { flex: (!!this.props.flex) ? this.props.flex : "" } },
+        return (React.createElement("div", { className: "input-number", style: __assign({ flex: this.props.flex != undefined ? this.props.flex : "" }, this.props.containerStyle) },
             this.props.title,
             " ",
             React.createElement("input", { type: "text", value: this.props.value, style: __assign({}, this.props.style), onChange: function (e) {
                     if (!!_this.props.onChange)
-                        _this.props.onChange((!!e.currentTarget.value) ? Math.min(parseInt(e.currentTarget.value), _this.props.max) : 0);
-                }, onBlur: function (e) { if (!!_this.props.onChange) {
-                    _this.props.onChange(Math.max(parseInt(e.currentTarget.value), _this.props.min));
-                } } })));
+                        _this.props.onChange(!!e.currentTarget.value
+                            ? Math.min(parseInt(e.currentTarget.value), _this.props.max)
+                            : 0);
+                }, onBlur: function (e) {
+                    if (!!_this.props.onChange) {
+                        _this.props.onChange(Math.max(parseInt(e.currentTarget.value), _this.props.min));
+                    }
+                } })));
     };
     return NumberInput;
 }(React.Component));
@@ -29457,6 +30313,7 @@ exports.__esModule = true;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var NumberInput_1 = __webpack_require__(/*! ../inputs/NumberInput */ "./src/components/inputs/NumberInput.tsx");
 var SelectInput_1 = __webpack_require__(/*! ../inputs/SelectInput */ "./src/components/inputs/SelectInput.tsx");
+var Section_1 = __webpack_require__(/*! ./Section */ "./src/components/sections/Section.tsx");
 var AlertSoundSection = /** @class */ (function (_super) {
     __extends(AlertSoundSection, _super);
     function AlertSoundSection() {
@@ -29464,34 +30321,26 @@ var AlertSoundSection = /** @class */ (function (_super) {
     }
     AlertSoundSection.prototype.render = function () {
         var _this = this;
-        var _a, _b, _c, _d, _e, _f;
-        return (React.createElement("div", { className: "list-item-section", style: { flex: (this.props.flex != undefined) ? this.props.flex : '1' } },
-            React.createElement("div", { className: (!!this.props.value && ((_a = this.props.value) === null || _a === void 0 ? void 0 : _a.active)) ? "button" : "button button--disabled", style: { backgroundColor: (_c = (_b = this.props) === null || _b === void 0 ? void 0 : _b.value) === null || _c === void 0 ? void 0 : _c.getParent().getColor((_d = this.props) === null || _d === void 0 ? void 0 : _d.value) }, onClick: function () {
-                    var _a, _b;
-                    if (!!_this.props.value) {
-                        (_a = _this.props.value.getParent()) === null || _a === void 0 ? void 0 : _a.toggle((_b = _this.props) === null || _b === void 0 ? void 0 : _b.value);
-                    }
-                } }, this.props.title),
-            ((_f = (_e = this.props) === null || _e === void 0 ? void 0 : _e.value) === null || _f === void 0 ? void 0 : _f.active) ? React.createElement("div", { className: "list-item-section-content" },
-                React.createElement(SelectInput_1["default"], { style: { flex: 1, marginRight: 5 }, itemStyling: {}, value: this.props.value.value.id, items: [
-                        { title: '1' },
-                        { title: '2' },
-                        { title: '3' },
-                        { title: '4' },
-                        { title: '5' },
-                        { title: '6' },
-                        { title: '7' },
-                        { title: '8' },
-                        { title: '9' },
-                        { title: '10' },
-                        { title: '11' },
-                        { title: '12' },
-                        { title: '13' },
-                        { title: '14' },
-                        { title: '15' },
-                        { title: '16' },
-                    ], onChange: function (val) { _this.props.value.alter({ id: parseInt(val), volume: _this.props.value.value.volume }); } }),
-                React.createElement(NumberInput_1["default"], { style: { height: '29px', marginRight: '-6px' }, value: this.props.value.value.volume, min: 0, max: 300, onChange: function (val) { _this.props.value.alter({ id: _this.props.value.value.id, volume: val }); } })) : ""));
+        return (React.createElement(Section_1["default"], { title: this.props.title, value: this.props.value },
+            React.createElement(SelectInput_1["default"], { style: { flex: 1, marginRight: 5 }, itemStyling: {}, value: this.props.value.value.id, items: [
+                    { title: '1' },
+                    { title: '2' },
+                    { title: '3' },
+                    { title: '4' },
+                    { title: '5' },
+                    { title: '6' },
+                    { title: '7' },
+                    { title: '8' },
+                    { title: '9' },
+                    { title: '10' },
+                    { title: '11' },
+                    { title: '12' },
+                    { title: '13' },
+                    { title: '14' },
+                    { title: '15' },
+                    { title: '16' },
+                ], onChange: function (val) { _this.props.value.alter({ id: parseInt(val), volume: _this.props.value.value.volume }); } }),
+            React.createElement(NumberInput_1["default"], { style: { height: '29px', marginRight: '-6px' }, value: this.props.value.value.volume, min: 0, max: 300, onChange: function (val) { _this.props.value.alter({ id: _this.props.value.value.id, volume: val }); } })));
     };
     return AlertSoundSection;
 }(React.Component));
@@ -29532,6 +30381,7 @@ var __spreadArrays = (this && this.__spreadArrays) || function () {
 exports.__esModule = true;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var TextInput_1 = __webpack_require__(/*! ../inputs/TextInput */ "./src/components/inputs/TextInput.tsx");
+var Section_1 = __webpack_require__(/*! ./Section */ "./src/components/sections/Section.tsx");
 var CollectionSection = /** @class */ (function (_super) {
     __extends(CollectionSection, _super);
     function CollectionSection() {
@@ -29539,25 +30389,18 @@ var CollectionSection = /** @class */ (function (_super) {
     }
     CollectionSection.prototype.render = function () {
         var _this = this;
-        return (React.createElement("div", { className: "list-item-section", style: { flex: (this.props.flex != undefined) ? this.props.flex : '1' } },
-            React.createElement("div", { className: (!!this.props.value && this.props.value.active) ? "button" : "button button--disabled", onClick: function () {
-                    var _a;
-                    if (!!_this.props.value) {
-                        (_a = _this.props.value.getParent()) === null || _a === void 0 ? void 0 : _a.toggle(_this.props.value);
-                    }
-                } }, this.props.title),
-            (!!this.props.value && this.props.value.active) ? React.createElement("div", { className: "list-item-section-content", style: { flexDirection: "column" } },
-                React.createElement("div", { className: "list-item-section-collection", style: { display: (this.props.value.value.length > 0) ? 'block' : 'none' } }, this.props.value.value.map(function (e, i) {
-                    return React.createElement("p", { key: i, className: "list-item-section-collection-item", onClick: function (e) {
-                            var _arr = [];
-                            for (var i_1 = 0; i_1 < _this.props.value.value.length; i_1++) {
-                                if (_this.props.value.value[i_1] != e.currentTarget.innerHTML)
-                                    _arr.push(_this.props.value.value[i_1]);
-                            }
-                            _this.props.value.alter(_arr);
-                        } }, e);
-                })),
-                React.createElement(TextInput_1["default"], { placeholder: "Type here", confirmWithEnter: true, onChange: function (value) { _this.props.value.alter(__spreadArrays(_this.props.value.value, [value])); } })) : ""));
+        return (React.createElement(Section_1["default"], { title: this.props.title, column: true, value: this.props.value },
+            React.createElement("div", { className: "list-item-section-collection", style: { display: (this.props.value.value.length > 0) ? 'block' : 'none' } }, this.props.value.value.map(function (e, i) {
+                return React.createElement("p", { key: i, className: "list-item-section-collection-item", onClick: function (e) {
+                        var _arr = [];
+                        for (var i_1 = 0; i_1 < _this.props.value.value.length; i_1++) {
+                            if (_this.props.value.value[i_1] != e.currentTarget.innerHTML)
+                                _arr.push(_this.props.value.value[i_1]);
+                        }
+                        _this.props.value.alter(_arr);
+                    } }, e);
+            })),
+            React.createElement(TextInput_1["default"], { placeholder: "Type here", confirmWithEnter: true, onChange: function (value) { _this.props.value.alter(__spreadArrays(_this.props.value.value, [value])); } })));
     };
     return CollectionSection;
 }(React.Component));
@@ -29591,7 +30434,7 @@ var __extends = (this && this.__extends) || (function () {
 exports.__esModule = true;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var NumberInput_1 = __webpack_require__(/*! ../inputs/NumberInput */ "./src/components/inputs/NumberInput.tsx");
-var ColorInput_1 = __webpack_require__(/*! ../inputs/ColorInput */ "./src/components/inputs/ColorInput.tsx");
+var Section_1 = __webpack_require__(/*! ./Section */ "./src/components/sections/Section.tsx");
 var ColorSection = /** @class */ (function (_super) {
     __extends(ColorSection, _super);
     function ColorSection() {
@@ -29599,25 +30442,15 @@ var ColorSection = /** @class */ (function (_super) {
     }
     ColorSection.prototype.render = function () {
         var _this = this;
-        var _a, _b, _c;
         var color = [0, 0, 0, 255];
         if (!!this.props.value)
             color = this.props.value.value;
-        return (React.createElement("div", { className: "list-item-section", style: { flex: (this.props.flex != undefined) ? this.props.flex : '1' } },
-            React.createElement("div", { className: (!!this.props.value && this.props.value.active) ? "button" : "button button--disabled", style: { backgroundColor: (_a = this.props.value.getParent()) === null || _a === void 0 ? void 0 : _a.getColor(this.props.value) }, onClick: function () {
-                    var _a;
-                    if (!!_this.props.value) {
-                        (_a = _this.props.value.getParent()) === null || _a === void 0 ? void 0 : _a.toggle(_this.props.value);
-                    }
-                } }, this.props.title),
-            ((_c = (_b = this.props) === null || _b === void 0 ? void 0 : _b.value) === null || _c === void 0 ? void 0 : _c.active) ? React.createElement("div", { className: "list-item-section-content", style: { flexDirection: "column" } },
-                React.createElement("div", { style: { display: "flex", justifyContent: "center", marginBottom: 10 } },
-                    React.createElement(ColorInput_1["default"], { width: 180, height: 100, onSelect: function (red, green, blue) { _this.props.value.alter([red, green, blue, _this.props.value.value[3]]); } })),
-                React.createElement("div", { style: { display: "flex", flexDirection: "row" } },
-                    React.createElement(NumberInput_1["default"], { style: { backgroundColor: "#FF4B4B", color: "white" }, value: color[0], min: 0, max: 255, onChange: function (value) { _this.props.value.alter([value, _this.props.value.value[1], _this.props.value.value[2], _this.props.value.value[3]]); } }),
-                    React.createElement(NumberInput_1["default"], { style: { backgroundColor: "#429642", color: "white" }, value: color[1], min: 0, max: 255, onChange: function (value) { _this.props.value.alter([_this.props.value.value[0], value, _this.props.value.value[2], _this.props.value.value[3]]); } }),
-                    React.createElement(NumberInput_1["default"], { style: { backgroundColor: "rgba(79, 79, 250, 0.65)", color: "white" }, value: color[2], min: 0, max: 255, onChange: function (value) { _this.props.value.alter([_this.props.value.value[0], _this.props.value.value[1], value, _this.props.value.value[3]]); } }),
-                    React.createElement(NumberInput_1["default"], { style: { backgroundColor: "white", color: "black" }, value: color[3], min: 0, max: 255, onChange: function (value) { _this.props.value.alter([_this.props.value.value[0], _this.props.value.value[1], _this.props.value.value[2], value]); } }))) : ""));
+        return (React.createElement(Section_1["default"], { title: this.props.title, column: true, value: this.props.value, style: { maxWidth: 200 } },
+            React.createElement("div", { style: { display: "flex", flexDirection: "row" } },
+                React.createElement(NumberInput_1["default"], { style: { backgroundColor: "#FF4B4B", color: "white" }, value: color[0], min: 0, max: 255, onChange: function (value) { _this.props.value.alter([value, _this.props.value.value[1], _this.props.value.value[2], _this.props.value.value[3]]); } }),
+                React.createElement(NumberInput_1["default"], { style: { backgroundColor: "#429642", color: "white" }, value: color[1], min: 0, max: 255, onChange: function (value) { _this.props.value.alter([_this.props.value.value[0], value, _this.props.value.value[2], _this.props.value.value[3]]); } }),
+                React.createElement(NumberInput_1["default"], { style: { backgroundColor: "rgba(79, 79, 250, 0.65)", color: "white" }, value: color[2], min: 0, max: 255, onChange: function (value) { _this.props.value.alter([_this.props.value.value[0], _this.props.value.value[1], value, _this.props.value.value[3]]); } }),
+                React.createElement(NumberInput_1["default"], { style: { backgroundColor: "white", color: "black" }, value: color[3], min: 0, max: 255, onChange: function (value) { _this.props.value.alter([_this.props.value.value[0], _this.props.value.value[1], _this.props.value.value[2], value]); } }))));
     };
     return ColorSection;
 }(React.Component));
@@ -29651,6 +30484,7 @@ var __extends = (this && this.__extends) || (function () {
 exports.__esModule = true;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var TextInput_1 = __webpack_require__(/*! ../inputs/TextInput */ "./src/components/inputs/TextInput.tsx");
+var Section_1 = __webpack_require__(/*! ./Section */ "./src/components/sections/Section.tsx");
 var CustomSoundSection = /** @class */ (function (_super) {
     __extends(CustomSoundSection, _super);
     function CustomSoundSection() {
@@ -29658,16 +30492,11 @@ var CustomSoundSection = /** @class */ (function (_super) {
     }
     CustomSoundSection.prototype.render = function () {
         var _this = this;
-        var _a, _b, _c, _d, _e, _f;
-        return (React.createElement("div", { className: "list-item-section", style: { flex: (this.props.flex != undefined) ? this.props.flex : '1' } },
-            React.createElement("div", { className: (!!this.props.value && ((_a = this.props.value) === null || _a === void 0 ? void 0 : _a.active)) ? "button" : "button button--disabled", style: { backgroundColor: (_c = (_b = this.props) === null || _b === void 0 ? void 0 : _b.value) === null || _c === void 0 ? void 0 : _c.getParent().getColor((_d = this.props) === null || _d === void 0 ? void 0 : _d.value) }, onClick: function () {
-                    var _a, _b;
-                    if (!!_this.props.value) {
-                        (_a = _this.props.value.getParent()) === null || _a === void 0 ? void 0 : _a.toggle((_b = _this.props) === null || _b === void 0 ? void 0 : _b.value);
-                    }
-                } }, this.props.title),
-            ((_f = (_e = this.props) === null || _e === void 0 ? void 0 : _e.value) === null || _f === void 0 ? void 0 : _f.active) ? React.createElement("div", { className: "list-item-section-content" },
-                React.createElement(TextInput_1["default"], { value: this.props.value.value.file, confirmWithEnter: false, placeholder: "Write Here", onChange: function (val) { console.log("????"); _this.props.value.alter({ file: val }); } })) : ""));
+        return (React.createElement(Section_1["default"], { title: this.props.title, value: this.props.value },
+            React.createElement(TextInput_1["default"], { value: this.props.value.value.file, confirmWithEnter: false, placeholder: "Write Here", onChange: function (val) {
+                    console.log("????");
+                    _this.props.value.alter({ file: val });
+                } })));
     };
     return CustomSoundSection;
 }(React.Component));
@@ -29702,6 +30531,7 @@ exports.__esModule = true;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var SelectInput_1 = __webpack_require__(/*! ../inputs/SelectInput */ "./src/components/inputs/SelectInput.tsx");
 var ToggleInput_1 = __webpack_require__(/*! ../inputs/ToggleInput */ "./src/components/inputs/ToggleInput.tsx");
+var Section_1 = __webpack_require__(/*! ./Section */ "./src/components/sections/Section.tsx");
 var EffectSection = /** @class */ (function (_super) {
     __extends(EffectSection, _super);
     function EffectSection() {
@@ -29709,29 +30539,21 @@ var EffectSection = /** @class */ (function (_super) {
     }
     EffectSection.prototype.render = function () {
         var _this = this;
-        var _a, _b, _c, _d, _e, _f;
-        return (React.createElement("div", { className: "list-item-section", style: { flex: (this.props.flex != undefined) ? this.props.flex : '1' } },
-            React.createElement("div", { className: (!!this.props.value && ((_a = this.props.value) === null || _a === void 0 ? void 0 : _a.active)) ? "button" : "button button--disabled", style: { backgroundColor: (_c = (_b = this.props) === null || _b === void 0 ? void 0 : _b.value) === null || _c === void 0 ? void 0 : _c.getParent().getColor((_d = this.props) === null || _d === void 0 ? void 0 : _d.value) }, onClick: function () {
-                    var _a, _b;
-                    if (!!_this.props.value) {
-                        (_a = _this.props.value.getParent()) === null || _a === void 0 ? void 0 : _a.toggle((_b = _this.props) === null || _b === void 0 ? void 0 : _b.value);
-                    }
-                } }, this.props.title),
-            ((_f = (_e = this.props) === null || _e === void 0 ? void 0 : _e.value) === null || _f === void 0 ? void 0 : _f.active) ? React.createElement("div", { className: "list-item-section-content" },
-                React.createElement(SelectInput_1["default"], { style: { flex: 2, marginRight: 5 }, itemStyling: {}, value: this.props.value.value.color, items: [
-                        { title: 'Red', style: { color: "red" } },
-                        { title: 'Green', style: { color: "green", fontWeight: "bold" } },
-                        { title: 'Blue', style: { color: "blue" } },
-                        { title: 'Brown', style: { color: "brown" } },
-                        { title: 'White', style: { color: "#fff" } },
-                        { title: 'Yellow', style: { color: "yellow" } },
-                        { title: 'Cyan', style: { color: "cyan" } },
-                        { title: 'Grey', style: { color: "#444" } },
-                        { title: 'Orange', style: { color: "orange" } },
-                        { title: 'Pink', style: { color: "pink" } },
-                        { title: 'Purple', style: { color: "purple" } },
-                    ], onChange: function (val) { _this.props.value.alter({ color: val }); } }),
-                React.createElement(ToggleInput_1["default"], { value: (this.props.value.value.temp) ? this.props.value.value.temp : false, onChange: function (val) { _this.props.value.alter({ color: _this.props.value.value.color, temp: !_this.props.value.value.temp }); } })) : ""));
+        return (React.createElement(Section_1["default"], { title: this.props.title, value: this.props.value },
+            React.createElement(SelectInput_1["default"], { style: { flex: 2, marginRight: 5 }, itemStyling: {}, value: this.props.value.value.color, items: [
+                    { title: 'Red', style: { color: "red" } },
+                    { title: 'Green', style: { color: "green", fontWeight: "bold" } },
+                    { title: 'Blue', style: { color: "blue" } },
+                    { title: 'Brown', style: { color: "brown" } },
+                    { title: 'White', style: { color: "#fff" } },
+                    { title: 'Yellow', style: { color: "yellow" } },
+                    { title: 'Cyan', style: { color: "cyan" } },
+                    { title: 'Grey', style: { color: "#444" } },
+                    { title: 'Orange', style: { color: "orange" } },
+                    { title: 'Pink', style: { color: "pink" } },
+                    { title: 'Purple', style: { color: "purple" } },
+                ], onChange: function (val) { _this.props.value.alter({ color: val }); } }),
+            React.createElement(ToggleInput_1["default"], { value: (this.props.value.value.temp) ? this.props.value.value.temp : false, onChange: function (val) { _this.props.value.alter({ color: _this.props.value.value.color, temp: !_this.props.value.value.temp }); } })));
     };
     return EffectSection;
 }(React.Component));
@@ -29774,44 +30596,44 @@ var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var TextInput_1 = __webpack_require__(/*! ../inputs/TextInput */ "./src/components/inputs/TextInput.tsx");
 var NumberInput_1 = __webpack_require__(/*! ../inputs/NumberInput */ "./src/components/inputs/NumberInput.tsx");
 var SelectInput_1 = __webpack_require__(/*! ../inputs/SelectInput */ "./src/components/inputs/SelectInput.tsx");
+var Section_1 = __webpack_require__(/*! ./Section */ "./src/components/sections/Section.tsx");
 var FetchSection = /** @class */ (function (_super) {
     __extends(FetchSection, _super);
     function FetchSection(props) {
         var _this = _super.call(this, props) || this;
-        _this.state = { min: 1, max: 999999, active: false, value: { value: "Scarab" } };
+        _this.state = {
+            min: 1,
+            max: 999999,
+            active: false,
+            value: { value: "Scarab" }
+        };
         return _this;
     }
     FetchSection.prototype.render = function () {
         var _this = this;
-        return (React.createElement("div", { className: "list-item-section", style: { flex: (this.props.flex != undefined) ? this.props.flex : '1' } },
-            React.createElement("div", { className: (!!this.props.value && this.props.value.active) ? "button" : "button button--disabled", onClick: function () {
-                    if (!!_this.props.value) {
-                        _this.props.value.getParent().toggle(_this.props.value);
-                    }
-                } }, this.props.title),
-            (!!this.props.value && this.props.value.active) ? React.createElement("div", { className: "list-item-section-content", style: { flexDirection: "column" } },
-                React.createElement("div", { className: "list-item-section-collection" }, this.props.value.value.map(function (e, i) {
-                    return React.createElement("p", { key: i, className: "list-item-section-collection-item", onClick: function (e) {
-                            var _arr = [];
-                            console.log(e.currentTarget.innerHTML);
-                            for (var i_1 = 0; i_1 < _this.props.value.value.length; i_1++) {
-                                if (_this.props.value.value[i_1] != e.currentTarget.innerHTML)
-                                    _arr.push(_this.props.value.value[i_1]);
-                            }
-                            _this.props.value.alter(_arr);
-                        } }, e);
-                })),
-                React.createElement("div", { style: { display: "flex" } },
-                    React.createElement("div", { style: { display: "flex", flex: 5 } },
-                        React.createElement(TextInput_1["default"], { placeholder: "Type here and press Enter", confirmWithEnter: true, onChange: function (value) { _this.props.value.alter(__spreadArrays(_this.props.value.value, [value])); } })),
-                    React.createElement("div", { style: { position: "relative", marginLeft: "5px", flex: 2 } },
-                        React.createElement("div", { className: "button", style: { marginLeft: "0px" }, onClick: function () { _this.setState({ active: !_this.state.active }); } }, "Fetch"),
-                        (this.state.active) ? React.createElement("div", { className: "popup", style: { top: "26px" } },
-                            React.createElement(SelectInput_1["default"], { items: [{ title: 'DivinationCard' }, { title: 'Scarab' }, { title: 'Resonator' }, { title: 'Fragment' }, { title: 'Fossil' }, { title: 'UniqueJewel' }], value: this.state.value.value, onChange: function (val) { _this.setState({ value: { value: val } }); } }),
-                            React.createElement("div", { style: { display: "flex", flexDirection: "row" } },
-                                React.createElement(NumberInput_1["default"], { title: "Min", min: 1, max: this.state.max, value: this.state.min, onChange: function (value) { _this.setState({ min: value }); } }),
-                                React.createElement(NumberInput_1["default"], { title: "Max", min: this.state.min, max: 99999, value: this.state.max, onChange: function (value) { _this.setState({ max: value }); } })),
-                            React.createElement("div", { className: "button", style: { marginTop: "8px" }, onClick: function () { _this.props.value.alter(_this.props.value.getParent().app.fetch(_this.state.value.value, _this.state.min, _this.state.max)); _this.setState({ active: false }); } }, "Fetch")) : ""))) : ""));
+        return (React.createElement(Section_1["default"], { title: this.props.title, column: true, value: this.props.value, style: { minWidth: 500 } },
+            React.createElement("div", { className: "list-item-section-collection" }, this.props.value.value.map(function (e, i) {
+                return React.createElement("p", { key: i, className: "list-item-section-collection-item", onClick: function (e) {
+                        var _arr = [];
+                        console.log(e.currentTarget.innerHTML);
+                        for (var i_1 = 0; i_1 < _this.props.value.value.length; i_1++) {
+                            if (_this.props.value.value[i_1] != e.currentTarget.innerHTML)
+                                _arr.push(_this.props.value.value[i_1]);
+                        }
+                        _this.props.value.alter(_arr);
+                    } }, e);
+            })),
+            React.createElement("div", { style: { display: "flex" } },
+                React.createElement("div", { style: { display: "flex", flex: 5 } },
+                    React.createElement(TextInput_1["default"], { placeholder: "Type here and press Enter", confirmWithEnter: true, onChange: function (value) { _this.props.value.alter(__spreadArrays(_this.props.value.value, [value])); } })),
+                React.createElement("div", { style: { position: "relative", marginLeft: "5px", flex: 2 } },
+                    React.createElement("div", { className: "button", style: { marginLeft: "0px" }, onClick: function () { _this.setState({ active: !_this.state.active }); } }, "Fetch"),
+                    (this.state.active) ? React.createElement("div", { className: "popup", style: { top: "26px" } },
+                        React.createElement(SelectInput_1["default"], { items: [{ title: 'DivinationCard' }, { title: 'Scarab' }, { title: 'Resonator' }, { title: 'Fragment' }, { title: 'Fossil' }, { title: 'UniqueJewel' }], value: this.state.value.value, onChange: function (val) { _this.setState({ value: { value: val } }); } }),
+                        React.createElement("div", { style: { display: "flex", flexDirection: "row" } },
+                            React.createElement(NumberInput_1["default"], { title: "Min", min: 1, max: this.state.max, value: this.state.min, onChange: function (value) { _this.setState({ min: value }); } }),
+                            React.createElement(NumberInput_1["default"], { title: "Max", min: this.state.min, max: 99999, value: this.state.max, onChange: function (value) { _this.setState({ max: value }); } })),
+                        React.createElement("div", { className: "button", style: { marginTop: "8px" }, onClick: function () { _this.props.value.alter(_this.props.value.getParent().app.fetch(_this.state.value.value, _this.state.min, _this.state.max)); _this.setState({ active: false }); } }, "Fetch")) : ""))));
     };
     return FetchSection;
 }(React.Component));
@@ -29845,6 +30667,7 @@ var __extends = (this && this.__extends) || (function () {
 exports.__esModule = true;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var SelectInput_1 = __webpack_require__(/*! ../inputs/SelectInput */ "./src/components/inputs/SelectInput.tsx");
+var Section_1 = __webpack_require__(/*! ./Section */ "./src/components/sections/Section.tsx");
 var MapIconSection = /** @class */ (function (_super) {
     __extends(MapIconSection, _super);
     function MapIconSection() {
@@ -29852,51 +30675,111 @@ var MapIconSection = /** @class */ (function (_super) {
     }
     MapIconSection.prototype.render = function () {
         var _this = this;
-        var _a, _b, _c, _d, _e, _f;
-        return (React.createElement("div", { className: "list-item-section", style: { flex: (this.props.flex != undefined) ? this.props.flex : '1' } },
-            React.createElement("div", { className: (!!this.props.value && ((_a = this.props.value) === null || _a === void 0 ? void 0 : _a.active)) ? "button" : "button button--disabled", style: { backgroundColor: (_c = (_b = this.props) === null || _b === void 0 ? void 0 : _b.value) === null || _c === void 0 ? void 0 : _c.getParent().getColor((_d = this.props) === null || _d === void 0 ? void 0 : _d.value) }, onClick: function () {
+        return (React.createElement(Section_1["default"], { title: this.props.title, value: this.props.value },
+            React.createElement(SelectInput_1["default"], { style: { flex: 1, marginRight: 5 }, itemStyling: {}, value: this.props.value.value.size, items: [
+                    { title: '0' },
+                    { title: '1' },
+                    { title: '2' },
+                ], onChange: function (val) { _this.props.value.alter({ size: parseInt(val), color: _this.props.value.value.color, shape: _this.props.value.value.shape }); } }),
+            React.createElement(SelectInput_1["default"], { style: { flex: 2, marginRight: 5 }, itemStyling: {}, value: this.props.value.value.color, items: [
+                    { title: 'Red', style: { backgroundColor: "red" } },
+                    { title: 'Green', style: { backgroundColor: "green" } },
+                    { title: 'Blue', style: { backgroundColor: "blue" } },
+                    { title: 'Brown', style: { backgroundColor: "brown" } },
+                    { title: 'White', style: { backgroundColor: "#fff", color: "black" } },
+                    { title: 'Yellow', style: { backgroundColor: "yellow", color: "black" } },
+                    { title: 'Cyan', style: { backgroundColor: "cyan", color: "black" } },
+                    { title: 'Grey', style: { backgroundColor: "#444" } },
+                    { title: 'Orange', style: { backgroundColor: "orange" } },
+                    { title: 'Pink', style: { backgroundColor: "pink" } },
+                    { title: 'Purple', style: { backgroundColor: "purple" } },
+                ], onChange: function (val) { _this.props.value.alter({ size: _this.props.value.value.size, color: val, shape: _this.props.value.value.shape }); } }),
+            React.createElement(SelectInput_1["default"], { style: { flex: 3, marginRight: 5 }, itemStyling: {}, value: this.props.value.value.shape, items: [
+                    { title: 'Circle' },
+                    { title: 'Diamond' },
+                    { title: 'Hexagon' },
+                    { title: 'Square' },
+                    { title: 'Star' },
+                    { title: 'Triangle' },
+                    { title: 'Cross' },
+                    { title: 'Moon' },
+                    { title: 'Raindrop' },
+                    { title: 'Kite' },
+                    { title: 'Pentagon' },
+                    { title: 'UpsideDownHouse' },
+                ], onChange: function (val) { _this.props.value.alter({ size: _this.props.value.value.size, color: _this.props.value.value.color, shape: val }); } })));
+    };
+    return MapIconSection;
+}(React.Component));
+exports["default"] = MapIconSection;
+
+
+/***/ }),
+
+/***/ "./src/components/sections/Section.tsx":
+/*!*********************************************!*\
+  !*** ./src/components/sections/Section.tsx ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+exports.__esModule = true;
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var AppContext_1 = __webpack_require__(/*! ../../logic/AppContext */ "./src/logic/AppContext.tsx");
+var Section = /** @class */ (function (_super) {
+    __extends(Section, _super);
+    function Section() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    Section.prototype.render = function () {
+        var _this = this;
+        var _a, _b, _c, _d, _e, _f, _g;
+        var _h = this.context, editedRule = _h.editedRule, selected = _h.selected;
+        return ((_a = this.props.value) === null || _a === void 0 ? void 0 : _a.active) ||
+            (editedRule == this.props.value.getParent()) ? (React.createElement("div", { className: "list-item-section", style: __assign({ minWidth: 200 }, this.props
+                .style /*flex: (this.props.flex != undefined) ? this.props.flex : '1' */) },
+            React.createElement("div", { className: !!this.props.value && ((_b = this.props.value) === null || _b === void 0 ? void 0 : _b.active)
+                    ? "button"
+                    : "button button--disabled", style: {
+                    backgroundColor: (_d = (_c = this.props) === null || _c === void 0 ? void 0 : _c.value) === null || _d === void 0 ? void 0 : _d.getParent().getColor((_e = this.props) === null || _e === void 0 ? void 0 : _e.value),
+                }, onClick: function () {
                     var _a, _b;
                     if (!!_this.props.value) {
                         (_a = _this.props.value.getParent()) === null || _a === void 0 ? void 0 : _a.toggle((_b = _this.props) === null || _b === void 0 ? void 0 : _b.value);
                     }
                 } }, this.props.title),
-            ((_f = (_e = this.props) === null || _e === void 0 ? void 0 : _e.value) === null || _f === void 0 ? void 0 : _f.active) ? React.createElement("div", { className: "list-item-section-content" },
-                React.createElement(SelectInput_1["default"], { style: { flex: 1, marginRight: 5 }, itemStyling: {}, value: this.props.value.value.size, items: [
-                        { title: '0' },
-                        { title: '1' },
-                        { title: '2' },
-                    ], onChange: function (val) { _this.props.value.alter({ size: parseInt(val), color: _this.props.value.value.color, shape: _this.props.value.value.shape }); } }),
-                React.createElement(SelectInput_1["default"], { style: { flex: 2, marginRight: 5 }, itemStyling: {}, value: this.props.value.value.color, items: [
-                        { title: 'Red', style: { backgroundColor: "red" } },
-                        { title: 'Green', style: { backgroundColor: "green" } },
-                        { title: 'Blue', style: { backgroundColor: "blue" } },
-                        { title: 'Brown', style: { backgroundColor: "brown" } },
-                        { title: 'White', style: { backgroundColor: "#fff", color: "black" } },
-                        { title: 'Yellow', style: { backgroundColor: "yellow", color: "black" } },
-                        { title: 'Cyan', style: { backgroundColor: "cyan", color: "black" } },
-                        { title: 'Grey', style: { backgroundColor: "#444" } },
-                        { title: 'Orange', style: { backgroundColor: "orange" } },
-                        { title: 'Pink', style: { backgroundColor: "pink" } },
-                        { title: 'Purple', style: { backgroundColor: "purple" } },
-                    ], onChange: function (val) { _this.props.value.alter({ size: _this.props.value.value.size, color: val, shape: _this.props.value.value.shape }); } }),
-                React.createElement(SelectInput_1["default"], { style: { flex: 3, marginRight: 5 }, itemStyling: {}, value: this.props.value.value.shape, items: [
-                        { title: 'Circle' },
-                        { title: 'Diamond' },
-                        { title: 'Hexagon' },
-                        { title: 'Square' },
-                        { title: 'Star' },
-                        { title: 'Triangle' },
-                        { title: 'Cross' },
-                        { title: 'Moon' },
-                        { title: 'Raindrop' },
-                        { title: 'Kite' },
-                        { title: 'Pentagon' },
-                        { title: 'UpsideDownHouse' },
-                    ], onChange: function (val) { _this.props.value.alter({ size: _this.props.value.value.size, color: _this.props.value.value.color, shape: val }); } })) : ""));
+            ((_g = (_f = this.props) === null || _f === void 0 ? void 0 : _f.value) === null || _g === void 0 ? void 0 : _g.active) ? (React.createElement("div", { className: "list-item-section-content", style: { flexDirection: this.props.column ? "column" : "row" } }, this.props.children)) : (""))) : null;
     };
-    return MapIconSection;
+    Section.contextType = AppContext_1["default"];
+    return Section;
 }(React.Component));
-exports["default"] = MapIconSection;
+exports["default"] = Section;
 
 
 /***/ }),
@@ -29927,6 +30810,7 @@ exports.__esModule = true;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var NumberInput_1 = __webpack_require__(/*! ../inputs/NumberInput */ "./src/components/inputs/NumberInput.tsx");
 var SelectInput_1 = __webpack_require__(/*! ../inputs/SelectInput */ "./src/components/inputs/SelectInput.tsx");
+var Section_1 = __webpack_require__(/*! ./Section */ "./src/components/sections/Section.tsx");
 var SignedSection = /** @class */ (function (_super) {
     __extends(SignedSection, _super);
     function SignedSection() {
@@ -29934,17 +30818,9 @@ var SignedSection = /** @class */ (function (_super) {
     }
     SignedSection.prototype.render = function () {
         var _this = this;
-        var _a, _b, _c, _d;
-        return (React.createElement("div", { className: "list-item-section", style: { flex: (this.props.flex != undefined) ? this.props.flex : '1' } },
-            React.createElement("div", { className: (!!this.props.value && ((_a = this.props.value) === null || _a === void 0 ? void 0 : _a.active)) ? "button" : "button button--disabled", style: { backgroundColor: (_c = (_b = this.props) === null || _b === void 0 ? void 0 : _b.value) === null || _c === void 0 ? void 0 : _c.getParent().getColor((_d = this.props) === null || _d === void 0 ? void 0 : _d.value) }, onClick: function () {
-                    var _a, _b;
-                    if (!!_this.props.value) {
-                        (_a = _this.props.value.getParent()) === null || _a === void 0 ? void 0 : _a.toggle((_b = _this.props) === null || _b === void 0 ? void 0 : _b.value);
-                    }
-                } }, this.props.title),
-            (this.props.value.active) ? React.createElement("div", { className: "list-item-section-content" },
-                React.createElement(SelectInput_1["default"], { style: { minWidth: '12px', flex: '1' }, items: [{ title: '<=' }, { title: '<' }, { title: '=' }, { title: '>' }, { title: '>=' }], value: this.props.value.value.sign, onChange: function (val) { _this.props.value.alter({ sign: val, value: _this.props.value.value.value }); } }),
-                React.createElement(NumberInput_1["default"], { style: { height: '29px', flex: '2', marginRight: '-6px' }, value: this.props.value.value.value, min: (this.props.min) ? this.props.min : 0, max: (this.props.max) ? this.props.max : 255, onChange: function (val) { _this.props.value.alter({ sign: _this.props.value.value.sign, value: val }); } })) : null));
+        return (React.createElement(Section_1["default"], { title: this.props.title, value: this.props.value },
+            React.createElement(SelectInput_1["default"], { style: { minWidth: '12px', flex: '1' }, items: [{ title: '<=' }, { title: '<' }, { title: '=' }, { title: '>' }, { title: '>=' }], value: this.props.value.value.sign, onChange: function (val) { _this.props.value.alter({ sign: val, value: _this.props.value.value.value }); } }),
+            React.createElement(NumberInput_1["default"], { style: { height: '29px', flex: '2', marginRight: '-6px' }, value: this.props.value.value.value, min: (this.props.min) ? this.props.min : 0, max: (this.props.max) ? this.props.max : 255, onChange: function (val) { _this.props.value.alter({ sign: _this.props.value.value.sign, value: val }); } })));
     };
     return SignedSection;
 }(React.Component));
@@ -29978,6 +30854,7 @@ var __extends = (this && this.__extends) || (function () {
 exports.__esModule = true;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var SelectInput_1 = __webpack_require__(/*! ../inputs/SelectInput */ "./src/components/inputs/SelectInput.tsx");
+var Section_1 = __webpack_require__(/*! ./Section */ "./src/components/sections/Section.tsx");
 var SignedTextSection = /** @class */ (function (_super) {
     __extends(SignedTextSection, _super);
     function SignedTextSection() {
@@ -29985,15 +30862,9 @@ var SignedTextSection = /** @class */ (function (_super) {
     }
     SignedTextSection.prototype.render = function () {
         var _this = this;
-        return (React.createElement("div", { className: "list-item-section", style: { flex: (this.props.flex != undefined) ? this.props.flex : '1' } },
-            React.createElement("div", { className: (!!this.props.value && this.props.value.active) ? "button" : "button button--disabled", style: { backgroundColor: this.props.value.getParent().getColor(this.props.value) }, onClick: function () {
-                    if (!!_this.props.value) {
-                        _this.props.value.getParent().toggle(_this.props.value);
-                    }
-                } }, this.props.title),
-            (this.props.value.active) ? React.createElement("div", { className: "list-item-section-content" },
-                React.createElement(SelectInput_1["default"], { style: { minWidth: '12px', flex: '1' }, items: [{ title: '<=' }, { title: '<' }, { title: '=' }, { title: '>' }, { title: '>=' }], value: this.props.value.value.sign, onChange: function (val) { _this.props.value.alter({ sign: val, value: _this.props.value.value.value }); } }),
-                React.createElement(SelectInput_1["default"], { style: { minWidth: '12px', flex: '2' }, items: [{ title: 'Normal' }, { title: 'Magic' }, { title: 'Rare' }, { title: 'Unique' }], value: this.props.value.value.value, onChange: function (val) { _this.props.value.alter({ sign: _this.props.value.value.sign, value: val }); } })) : ""));
+        return (React.createElement(Section_1["default"], { title: this.props.title, value: this.props.value },
+            React.createElement(SelectInput_1["default"], { style: { minWidth: '12px', flex: '1' }, items: [{ title: '<=' }, { title: '<' }, { title: '=' }, { title: '>' }, { title: '>=' }], value: this.props.value.value.sign, onChange: function (val) { _this.props.value.alter({ sign: val, value: _this.props.value.value.value }); } }),
+            React.createElement(SelectInput_1["default"], { style: { minWidth: '12px', flex: '2' }, items: [{ title: 'Normal' }, { title: 'Magic' }, { title: 'Rare' }, { title: 'Unique' }], value: this.props.value.value.value, onChange: function (val) { _this.props.value.alter({ sign: _this.props.value.value.sign, value: val }); } })));
     };
     return SignedTextSection;
 }(React.Component));
@@ -30027,6 +30898,7 @@ var __extends = (this && this.__extends) || (function () {
 exports.__esModule = true;
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ToggleInput_1 = __webpack_require__(/*! ../inputs/ToggleInput */ "./src/components/inputs/ToggleInput.tsx");
+var Section_1 = __webpack_require__(/*! ./Section */ "./src/components/sections/Section.tsx");
 var ToggleSection = /** @class */ (function (_super) {
     __extends(ToggleSection, _super);
     function ToggleSection() {
@@ -30034,18 +30906,113 @@ var ToggleSection = /** @class */ (function (_super) {
     }
     ToggleSection.prototype.render = function () {
         var _this = this;
-        var _a;
-        return (React.createElement("div", { className: "list-item-section", style: { /**flex: (this.props.flex != undefined) ? this.props.flex : '1' */} },
-            React.createElement("div", { className: (!!this.props.value && this.props.value.active) ? "button" : "button button--disabled", style: { backgroundColor: this.props.value.getParent().getColor(this.props.value) }, onClick: function () {
-                    var _a, _b;
-                    (_b = (_a = _this.props.value) === null || _a === void 0 ? void 0 : _a.getParent()) === null || _b === void 0 ? void 0 : _b.toggle(_this.props.value);
-                } }, (_a = this.props) === null || _a === void 0 ? void 0 : _a.title),
-            (this.props.value.active) ? React.createElement("div", { className: "list-item-section-content" },
-                React.createElement(ToggleInput_1["default"], { value: this.props.value.value, onChange: function (val) { _this.props.value.alter(val); } })) : ""));
+        return (React.createElement(Section_1["default"], { title: this.props.title, value: this.props.value },
+            React.createElement(ToggleInput_1["default"], { value: this.props.value.value, onChange: function (val) { _this.props.value.alter(val); } })));
     };
     return ToggleSection;
 }(React.Component));
 exports["default"] = ToggleSection;
+
+
+/***/ }),
+
+/***/ "./src/gfx/bg.png":
+/*!************************!*\
+  !*** ./src/gfx/bg.png ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "d3d1bd6921abf344f7a6b8f7accbb48a.png");
+
+/***/ }),
+
+/***/ "./src/gfx/fontin.ttf":
+/*!****************************!*\
+  !*** ./src/gfx/fontin.ttf ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "7618aa610d81386b72a446b637c50ac3.ttf");
+
+/***/ }),
+
+/***/ "./src/logic/AppContext.tsx":
+/*!**********************************!*\
+  !*** ./src/logic/AppContext.tsx ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+exports.__esModule = true;
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var AppContext = React.createContext({});
+exports["default"] = AppContext;
+
+
+/***/ }),
+
+/***/ "./src/logic/Filter.tsx":
+/*!******************************!*\
+  !*** ./src/logic/Filter.tsx ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __spreadArrays = (this && this.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
+exports.__esModule = true;
+function printFilter(items) {
+    var output = "";
+    items.forEach(function (val, i) {
+        output += val.print();
+    });
+    console.log(output);
+    return output;
+}
+exports.printFilter = printFilter;
+function loadFilter(getNewRule, input) {
+    var lines = input.split("\n");
+    var output = [];
+    var rule;
+    lines.forEach(function (line) {
+        line = line.trim();
+        if (line.length > 0) {
+            if (line.split(" ").includes("Show") ||
+                line.split(" ").includes("Hide")) {
+                if (rule)
+                    output.push(rule);
+                rule = getNewRule();
+                rule.show = line.split(" ").includes("Show");
+            }
+            else if (line.charAt(0) != "#") {
+                var words = line.split("#")[0].split(" ");
+                words = words.reduce(function (p, c, i) {
+                    return c.trim().length > 0 ? __spreadArrays(p, [c]) : __spreadArrays(p);
+                }, []);
+                rule.loadValue(words[0], words.splice(1, words.length));
+            }
+        }
+    });
+    output.push(rule);
+    console.log(output);
+    return output;
+}
+exports.loadFilter = loadFilter;
 
 
 /***/ }),
@@ -30062,6 +31029,7 @@ exports["default"] = ToggleSection;
 exports.__esModule = true;
 var Value_1 = __webpack_require__(/*! ./Value */ "./src/logic/Value.tsx");
 var App_1 = __webpack_require__(/*! ../App */ "./src/App.tsx");
+var DEFAULT_NAME = "Mirror of Klanadra";
 function getRule(id) {
     for (var i = 0; i < (App_1["default"] === null || App_1["default"] === void 0 ? void 0 : App_1["default"].items.length); i++) {
         var e = App_1["default"].items[i];
@@ -30072,7 +31040,12 @@ function getRule(id) {
 }
 exports.getRule = getRule;
 function randomizeColor() {
-    return [Math.floor(Math.random() * 255), Math.floor(Math.random() * 255), Math.floor(Math.random() * 255), 255];
+    return [
+        Math.floor(Math.random() * 255),
+        Math.floor(Math.random() * 255),
+        Math.floor(Math.random() * 255),
+        255,
+    ];
 }
 var Rule = /** @class */ (function () {
     function Rule(app, title) {
@@ -30086,9 +31059,18 @@ var Rule = /** @class */ (function () {
         this.background = new Value_1["default"](this.id, "SetBackgroundColor", [0, 0, 0, 255]);
         this.font = new Value_1["default"](this.id, "SetTextColor", [255, 255, 255, 255]);
         this.border = new Value_1["default"](this.id, "SetBorderColor", [0, 0, 0, 255]);
-        this.alertsound = new Value_1["default"](this.id, "PlayAlertSound", { id: 1, volume: 150 });
-        this.customsound = new Value_1["default"](this.id, "CustomAlertSound", { file: "testfile" });
-        this.icon = new Value_1["default"](this.id, "MinimapIcon", { size: 0, color: "red", shape: "circle" });
+        this.alertsound = new Value_1["default"](this.id, "PlayAlertSound", {
+            id: 1,
+            volume: 150,
+        });
+        this.customsound = new Value_1["default"](this.id, "CustomAlertSound", {
+            file: "testfile",
+        });
+        this.icon = new Value_1["default"](this.id, "MinimapIcon", {
+            size: 0,
+            color: "red",
+            shape: "circle",
+        });
         this.effect = new Value_1["default"](this.id, "PlayEffect", { color: "red" });
         this["class"] = new Value_1["default"](this.id, "Class", []);
         this.basetype = new Value_1["default"](this.id, "BaseType", []);
@@ -30096,19 +31078,22 @@ var Rule = /** @class */ (function () {
         this.prophecy = new Value_1["default"](this.id, "Prophecy", []);
         this.socketgroup = new Value_1["default"](this.id, "SocketGroup", []);
         this.enchantment = new Value_1["default"](this.id, "HasEnchantment", []);
-        this.rarity = new Value_1["default"](this.id, "Rarity", { sign: '<', value: 'Normal' });
-        this.quality = new Value_1["default"](this.id, "Quality", { sign: '<', value: 0 });
-        this.arealevel = new Value_1["default"](this.id, "AreaLevel", { sign: '<', value: 0 });
-        this.itemlevel = new Value_1["default"](this.id, "ItemLevel", { sign: '<', value: 0 });
-        this.droplevel = new Value_1["default"](this.id, "DropLevel", { sign: '<', value: 0 });
-        this.sockets = new Value_1["default"](this.id, "Sockets", { sign: '<', value: 0 });
-        this.linked = new Value_1["default"](this.id, "LinkedSockets", { sign: '<', value: 0 });
-        this.gemlevel = new Value_1["default"](this.id, "GemLevel", { sign: '<', value: 0 });
-        this.stacksize = new Value_1["default"](this.id, "StackSize", { sign: '<', value: 0 });
-        this.maptier = new Value_1["default"](this.id, "MapTier", { sign: '<', value: 0 });
-        this.width = new Value_1["default"](this.id, "Width", { sign: '<', value: 0 });
-        this.height = new Value_1["default"](this.id, "Height", { sign: '<', value: 0 });
-        this.corruptedmods = new Value_1["default"](this.id, "CorruptedMods", { sign: '<', value: 0 });
+        this.rarity = new Value_1["default"](this.id, "Rarity", { sign: "<", value: "Normal" });
+        this.quality = new Value_1["default"](this.id, "Quality", { sign: "<", value: 0 });
+        this.arealevel = new Value_1["default"](this.id, "AreaLevel", { sign: "<", value: 0 });
+        this.itemlevel = new Value_1["default"](this.id, "ItemLevel", { sign: "<", value: 0 });
+        this.droplevel = new Value_1["default"](this.id, "DropLevel", { sign: "<", value: 0 });
+        this.sockets = new Value_1["default"](this.id, "Sockets", { sign: "<", value: 0 });
+        this.linked = new Value_1["default"](this.id, "LinkedSockets", { sign: "<", value: 0 });
+        this.gemlevel = new Value_1["default"](this.id, "GemLevel", { sign: "<", value: 0 });
+        this.stacksize = new Value_1["default"](this.id, "StackSize", { sign: "<", value: 0 });
+        this.maptier = new Value_1["default"](this.id, "MapTier", { sign: "<", value: 0 });
+        this.width = new Value_1["default"](this.id, "Width", { sign: "<", value: 0 });
+        this.height = new Value_1["default"](this.id, "Height", { sign: "<", value: 0 });
+        this.corruptedmods = new Value_1["default"](this.id, "CorruptedMods", {
+            sign: "<",
+            value: 0,
+        });
         this.identified = new Value_1["default"](this.id, "Identified", false);
         this.corrupted = new Value_1["default"](this.id, "Corrupted", false);
         this.elder = new Value_1["default"](this.id, "ElderItem", false);
@@ -30118,25 +31103,62 @@ var Rule = /** @class */ (function () {
         this.fractured = new Value_1["default"](this.id, "FracturedItem", false);
         this.synthesis = new Value_1["default"](this.id, "SynthesisedItem", false);
         this.shapedmap = new Value_1["default"](this.id, "ShapedMap", false);
-        // this.alert = new Value(this.id, "PlayAlertSound", { sound: '1', volume: '100' }, this);
-        // this.icon = new Value(this.id, "MinimapIcon", { size: 'large', color: 'red', volume: 'circle' }, this);
-        // this.beam = new Value(this.id, "PlayEffect", { color: 'brown', duration: 'temporary' }, this);
     }
     Rule.prototype.clone = function () {
         var rule = new Rule(this.app, this.title);
         for (var i = 0; i < Object.keys(this).length; i++) {
             var key = Object.keys(this)[i];
-            if (key != "id") {
-                rule[key] = this[key];
+            if (key != "id" && key != "active") {
+                if (this[key] instanceof Value_1["default"]) {
+                    if (this[key].active) {
+                        rule[key] = new Value_1["default"](rule.id, this[key].name, this[key].value);
+                        rule[key].active = true;
+                    }
+                }
+                else
+                    rule[key] = this[key];
             }
         }
         return rule;
     };
+    Rule.prototype.getTitle = function () {
+        return !!this.title
+            ? this.basetype.value.length > 0
+                ? this.basetype.value[0]
+                : this["class"].value.length > 0
+                    ? this["class"].value[0]
+                    : this.title
+            : DEFAULT_NAME;
+    };
     Rule.prototype.getSize = function () {
-        return (21 + (Math.max(30, this.size.value) - 30) * 0.5) + "px";
+        return 21 + (Math.max(30, this.size.value) - 30) * 0.5 + "px";
+    };
+    Rule.prototype.getDefaultColor = function () {
+        var rarity = this.rarity.value.value;
+        if (rarity) {
+            switch (rarity.toLowerCase()) {
+                case "normal":
+                    return [200, 200, 200];
+                case "magic":
+                    return [136, 136, 255];
+                case "rare":
+                    return [255, 255, 119];
+                case "unique":
+                    return [175, 96, 37];
+            }
+        }
+        return [255, 255, 255];
+    };
+    Rule.prototype.arrayToColor = function (a) {
+        return "rgb(" + a[0] + "," + a[1] + "," + a[2] + ")";
+    };
+    Rule.prototype.getTextColor = function () {
+        return this.font.active
+            ? this.getColor(this.font)
+            : this.arrayToColor(this.getDefaultColor());
     };
     Rule.prototype.getColor = function (color) {
-        return "rgb(" + color.value[0] + "," + color.value[1] + "," + color.value[2] + ")";
+        return this.arrayToColor(color.value);
     };
     Rule.prototype.toggle = function (value) {
         value.active = !value.active;
@@ -30167,15 +31189,16 @@ var Rule = /** @class */ (function () {
                         }
                     }
                     //Signed type
-                    if (values.length == 2 && ['<=', '<', '=', '>', '>='].includes(values[0])) {
+                    if (values.length == 2 &&
+                        ["<=", "<", "=", ">", ">="].includes(values[0])) {
                         _this[e].active = true;
                         _this[e].value = { sign: values[0], value: values[1] };
                         return;
                     }
                     //Boolean type
-                    if (values[0] == 'true' || values[0] == 'false') {
+                    if (values[0] == "true" || values[0] == "false") {
                         _this[e].active = true;
-                        _this[e].value = (values[0] == 'true');
+                        _this[e].value = values[0] == "true";
                         return;
                     }
                     //Number type
@@ -30184,10 +31207,19 @@ var Rule = /** @class */ (function () {
                         _this[e].value = parseInt(values[0]);
                         return;
                     }
+                    if (values.length == 1 &&
+                        ["Normal", "Magic", "Rare", "Unique"].includes(values[0])) {
+                        _this[e].active = true;
+                        _this[e].value = { sign: "=", value: values[0] };
+                        return;
+                    }
                     //Sound type
                     if (key == "PlayAlertSound") {
                         _this[e].active = true;
-                        _this[e].value = { id: parseInt(values[0]), volume: (values[1]) ? parseInt(values[1]) : 150 };
+                        _this[e].value = {
+                            id: parseInt(values[0]),
+                            volume: values[1] ? parseInt(values[1]) : 150,
+                        };
                         return;
                     }
                     //CustomSound type
@@ -30199,12 +31231,15 @@ var Rule = /** @class */ (function () {
                     //MinimapIcon type
                     if (key == "MinimapIcon" && values.length >= 3) {
                         _this[e].active = true;
-                        _this[e].value = { size: parseInt(values[0]), color: values[1], shape: values[2] };
+                        _this[e].value = {
+                            size: parseInt(values[0]),
+                            color: values[1],
+                            shape: values[2],
+                        };
                         return;
                     }
                     //PlayEffect type
                     if (key == "PlayEffect") {
-                        console.log("play effect");
                         _this[e].active = true;
                         _this[e].value = { color: values[0] };
                         if (values[1] && values[1] == "Temp")
@@ -30215,10 +31250,15 @@ var Rule = /** @class */ (function () {
                     if (values.length > 0) {
                         _this[e].active = true;
                         _this[e].value = [];
-                        values.reduce(function (p, c) {
-                            return (c.charAt(0) != '\"' && c.charAt(c.length) == '\"') ? p + c : p + " " + c;
-                        }).split("\"").forEach(function (s) {
-                            if (s.trim().length > 0 && !['=='].includes(s.trim()))
+                        values
+                            .reduce(function (p, c) {
+                            return c.charAt(0) != '"' && c.charAt(c.length) == '"'
+                                ? p + c
+                                : p + " " + c;
+                        })
+                            .split("\"")
+                            .forEach(function (s) {
+                            if (s.trim().length > 0 && !["=="].includes(s.trim()))
                                 _this[e].value.push(s);
                         });
                         return;
@@ -30233,14 +31273,14 @@ var Rule = /** @class */ (function () {
     };
     Rule.prototype.print = function () {
         var _a;
-        var s = ((this.show) ? "Show" : "Hide") + "\n";
+        var s = (this.show ? "Show" : "Hide") + "\n";
         for (var i = 0; i < Object.keys(this).length; i++) {
             var key = Object.keys(this)[i];
             if (this[key] instanceof Value_1["default"]) {
                 s += (_a = this[key]) === null || _a === void 0 ? void 0 : _a.print();
             }
         }
-        return (s.length > 5) ? s : "";
+        return s.length > 5 ? s : "";
     };
     return Rule;
 }());
@@ -30311,6 +31351,35 @@ var Value = /** @class */ (function () {
 }());
 exports["default"] = Value;
 
+
+/***/ }),
+
+/***/ "./src/styles/style.css":
+/*!******************************!*\
+  !*** ./src/styles/style.css ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./style.css */ "./node_modules/css-loader/dist/cjs.js!./src/styles/style.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_1__);
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_1___default.a, options);
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_1___default.a.locals || {});
 
 /***/ })
 

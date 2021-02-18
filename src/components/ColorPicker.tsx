@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import * as React from 'react';
 
 type props = {
   width: number,
@@ -6,7 +6,7 @@ type props = {
   onSelect: (x: number, y: number) => any
 }
 
-export default class ColorPicker extends Component<props> {
+export default class ColorPicker extends React.Component<props> {
   canvas: HTMLCanvasElement | undefined;
   ctx: CanvasRenderingContext2D | null | undefined;
 
